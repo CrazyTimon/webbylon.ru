@@ -248,8 +248,52 @@ $(function(){
             });
             bBox = GlobalSettings.intervals['b-box'];
             bBox[bBox.length-1].timerId = bBox[bBox.length-1].timerId();
-        }, $('.b-box b').index(this) * 750);
+        }, $('.b-box b').index(this) * 1000);
     });
+
+    GlobalSettings.intervals['jumping-box'] = [];
+
+    GlobalSettings.intervals['jumping-box'].push({
+        timerId: function(){
+                return setInterval(function(){
+                    $('.js-boximg1').animate({
+                        top: '10'
+                    }, 1000, function(){
+                        $('.js-boximg1').animate({
+                            top: '25'
+                        }, 1000);
+                    });
+                }, 2000)
+        }()
+    })
+
+    GlobalSettings.intervals['jumping-box'].push({
+        timerId: function(){
+                return setInterval(function(){
+                    $('.js-boximg2').animate({
+                        top: '7'
+                    }, 1000, function(){
+                        $('.js-boximg2').animate({
+                            top: '22'
+                        }, 1000);
+                    });
+                }, 2000)
+        }()
+    })
+
+    GlobalSettings.intervals['jumping-box'].push({
+        timerId: function(){
+                return setInterval(function(){
+                    $('.js-boximg3').animate({
+                        top: '13'
+                    }, 1000, function(){
+                        $('.js-boximg3').animate({
+                            top: '25'
+                        }, 1000);
+                    });
+                }, 2000)
+        }()
+    })
     
 
     GlobalSettings.intervals['logo'] = [];
@@ -276,15 +320,15 @@ $(function(){
 
     GlobalSettings.intervals['logo'][0].timerId = GlobalSettings.intervals['logo'][0].timerId();
     
-    // $('.b-box-inner .b-img, .b-box').hover(
-    // function(e) {
-    //  var then = $(this).find('b');
-    //  TweenMax.to(then,1,{left:-15,top:-15,ease:Cubic.easeOut});
-    // },
-    // function(e) {
-    //  var then = $(this).find('b');
-    //  TweenMax.to(then,1,{left:0,top:0,ease:Cubic.easeOut});
-    // });
+    $('.b-box-inner .b-img').hover(
+    function(e) {
+     var then = $(this).find('b');
+     TweenMax.to(then,1,{left:-15,top:-15,ease:Cubic.easeOut});
+    },
+    function(e) {
+     var then = $(this).find('b');
+     TweenMax.to(then,1,{left:0,top:0,ease:Cubic.easeOut});
+    });
 });
 
 function downScroll(){

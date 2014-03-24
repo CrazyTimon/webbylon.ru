@@ -7,14 +7,20 @@
 	<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
 	<link href="css/preloader.css" rel="stylesheet" media="screen">
 	<link href="css/style.css" rel="stylesheet" media="screen">
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>	
-	<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.11.5/TweenMax.min.js"></script>
-	<script src="js/script.js"></script>
-	<script src="js/jpreloader.min.js"></script>
-	<script src="js/jquery.address.js"></script>
+	<script src="js/heartcode-canvasloader-min-0.9.1.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> 
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.11.5/TweenMax.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/jpreloader.min.js"></script>
+    <script src="js/jquery.address.js"></script>
 	
   </head>
   <body style="background-image:url(images/bg_img1.jpg);">
+    <div class="js-loaderoverlay">
+        <div id="canvasloader-container" class="wrapper">
+                <img src="images/logo.png" alt="" width="81" height="100">
+        </div>
+    </div>
     <div class="b-body">
     	<!-- ****** Header ****** -->
     	<section class="b-body-header">
@@ -66,15 +72,27 @@
     						
     						<div class="b-box-list">
     							<div class="b-box">
-    								<div class="b-img"><img src="images/boximg1.jpg" alt=""><b></b></div>
+    								<div class="b-img">
+                                        <img src="images/boximg.jpg" alt="">
+                                        <b></b>
+                                        <div class="js-boximg1"></div>
+                                    </div>
     								<div class="b-txt">Кафе, рестораны, супермаркет, все виды бытовых услуг для сотрудников для ваших сотрудников</div>
     							</div>
     							<div class="b-box">
-    								<div class="b-img"><img src="images/boximg2.jpg" alt=""><b></b></div>
+    								<div class="b-img">
+                                        <img src="images/boximg.jpg" alt="">
+                                        <b></b>
+                                        <div class="js-boximg2"></div>
+                                    </div>
     								<div class="b-txt">Профессиональная управляющая компания. Новая современная инженерия, крытый паркинг</div>
     							</div>
     							<div class="b-box">
-    								<div class="b-img"><img src="images/boximg3.jpg" alt=""><b></b></div>
+    								<div class="b-img">
+                                        <img src="images/boximg.jpg" alt="">
+                                        <b></b>
+                                        <div class="js-boximg3"></div>
+                                    </div>
     								<div class="b-txt">Кафе, рестораны, супермаркет, все виды бытовых услуг для сотрудников для ваших сотрудников</div>
     							</div>
     						</div>

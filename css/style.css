@@ -1157,6 +1157,54 @@ margin-top: 18px;
 margin-bottom: 10px;
 }
 
+.js-loaderoverlay img{
+	margin-top: -50px;
+	margin-left: -40px;
+}
+
+.js-loaderoverlay{
+	height: 100%;
+	width: 100%;
+	background: #292c33;
+	z-index: 999999;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+}
+
+#canvasloader-container{
+	left: 50%;
+	top: 50%;
+	position: absolute
+}
+
+.js-boximg1{
+	background: url(../images/boximg1.png) no-repeat;
+	position: absolute;
+	top: 18px;
+	left: 18px;
+	height: 40px;
+	width: 49px;
+}
+
+.js-boximg2{
+	background: url(../images/boximg2.png) no-repeat;
+	position: absolute;
+	top: 18px;
+	left: 23px;
+	height: 48px;
+	width: 40px;
+}
+
+.js-boximg3{
+	background: url(../images/boximg3.png) no-repeat;
+	position: absolute;
+	top: 18px;
+	left: 23px;
+	height: 42px;
+	width: 40px;
+}
+
 /* ------------------------------------------ */
 /* Responsive style */
 /* ------------------------------------------ */
