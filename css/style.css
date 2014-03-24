@@ -694,6 +694,23 @@ bottom:0;
 background:url(../images/glow_img.png) no-repeat;
 }
 
+.js-logo-blur{
+	height: 100px;
+	width: 81px;
+	overflow: hidden;
+}
+
+.js-logo-blur b{
+	z-index: 999999;
+	height: 91px;
+	width: 91px;
+	position: relative;
+	display: block;
+	left:60px;
+	top:-40px;
+	background:url(../images/glow_img.png) no-repeat;
+}
+
 .b-box-inner strong{
 display:block;
 }

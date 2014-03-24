@@ -250,8 +250,32 @@ $(function(){
             bBox[bBox.length-1].timerId = bBox[bBox.length-1].timerId();
         }, $('.b-box b').index(this) * 750);
     });
+    
 
+    GlobalSettings.intervals['logo'] = [];
+    GlobalSettings.intervals['logo'].push({
+        timerId: function(){
+            return setInterval(function(){
+                var that = this;
+                $('.js-logo-blur').find('b').css({
+                    left: "60px",
+                    top: "-40px"
+                })
+                TweenMax.to(
+                    $('.js-logo-blur').find('b'),
+                    0.5,
+                    {
+                        left: -50/*(that.isBack) ? -50 : 60*/,
+                        top: -130/*(that.isBack) ? -130 : -40*/
+                    });
+                    that.isBack = !that.isBack;
+            }, 2000)
+        },
+        isBack: true
+    });
 
+    GlobalSettings.intervals['logo'][0].timerId = GlobalSettings.intervals['logo'][0].timerId();
+    
     // $('.b-box-inner .b-img, .b-box').hover(
     // function(e) {
     //  var then = $(this).find('b');
