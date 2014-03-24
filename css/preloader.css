@@ -1,0 +1,57 @@
+#jpreLoader, #qLloader {
+		width: 496px;
+		height: 184px;
+		position: fixed;
+		top: 43%;
+		left: 50%;
+		margin-left: 0px;
+		margin-top: -300px;
+	}
+	#jpreOverlay, #qLoverlay {
+		background: #292c33;
+		width: 100%;
+		height: 100%;
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: 11;
+	}
+	#jpreSlide {
+		font-size: 22px;
+		font-weight: 700;
+		color: #FFF;
+		text-align: center;
+		width: 100%;
+	}
+	
+	#jpreBar, #qLbar {
+	width: 448px;
+	height: 0;
+	position: absolute;
+	bottom: 0;
+	background: #ffca47; /* Old browsers */
+	background: -moz-linear-gradient(left,  #ffca47 0%, #ef921c 99%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#ffca47), color-stop(99%,#ef921c)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  #ffca47 0%,#ef921c 99%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  #ffca47 0%,#ef921c 99%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  #ffca47 0%,#ef921c 99%); /* IE10+ */
+	background: linear-gradient(to right,  #ffca47 0%,#ef921c 99%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffca47', endColorstr='#ef921c',GradientType=1 ); /* IE6-9 */
+
+	height: 24px !important;
+	top: 70px;
+	left: 50px;
+	box-sizing: border-box;
+	max-width: 380px;
+	}
+	#jprePercentage, #qLpercentage {
+		color: #888;
+		text-align: center;
+		position: absolute;
+		height: 30px;
+		width: 100px;
+		margin-top: 40px;
+		color: #ffca47;
+		top: 65px;
+		width: 100%;
+	}
