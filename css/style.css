@@ -938,10 +938,11 @@ position: relative;
 height:90px;
 }
 .b-footer-gliph{
-position: absolute;
-top: 15px;
-left: 8px;
+    position: absolute;
+    top: 15px;
+    left: 8px;
 }
+
 .b-footer-tel{
 color: #FFF;
 font: 16px DinProRegular;
@@ -1209,6 +1210,14 @@ margin-bottom: 10px;
 	height: 42px;
 	width: 40px;
 }
+.js-boximg4{
+    background: url(../images/boximg_footer.png) no-repeat;
+    position: absolute;
+    top: 13px;
+    left: 13px;
+    height: 42px;
+    width: 40px;
+}
 
 /* ------------------------------------------ */
 /* Responsive style */
@@ -1289,6 +1298,6 @@ background-size:auto;
 
 }
 
-.b-txt, .b-intro-text, .b-galery-container, .b-contact, .b-from-send, .b-intro-img, .b-title-page, .b-box-inner, .b-level-block, .b-pay-info-block, .b-offer-block{
+/*.b-txt, .b-intro-text, .b-galery-container, .b-contact, .b-from-send, .b-intro-img, .b-title-page, .b-box-inner, .b-level-block, .b-pay-info-block, .b-offer-block{
     display: none;
-}
+}*/

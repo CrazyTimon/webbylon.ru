@@ -25,9 +25,10 @@ $(function(){
     $('.tabs a').on('touchstart mousedown',function(e){ 
         $('html,body').animate({scrollTop:0},0);
         $.address.value($(this).attr('href'));
-                
-        var index_now = $('.b-menu .active').index();
-        var index_new = $(this).parent().index();
+        $('.js-slideBySlide').css('display', 'none');
+        var index_now = $('.b-menu .active').index(),
+            index_new = $(this).parent().index(),
+            counter = 0;
         if (index_now > index_new){
             // Prev
             prevPage();
@@ -45,7 +46,15 @@ $(function(){
         $(this).parent().addClass('active')
         tabsSwiper.swipeTo($(this).parent().index())
             
-        
+        setTimeout(function(){
+            $.each($('.swiper-slide-active .js-slideBySlide'), function(){
+                var that = this;
+                counter++;
+                setTimeout(function(){
+                    $(that).fadeIn(400);
+                }, 400*counter);
+            });
+        }, 1000);
         var bg = $(this).attr('data-background');
         $('body').css('background-image','url('+bg+')');
         
@@ -201,21 +210,6 @@ $(function(){
     GlobalSettings.intervals = {};
     GlobalSettings.intervals['b-box'] = [];
     GlobalSettings.intervals['b-box'].isBack = true;// проигрывать анимацию в обратном порядке.
-    // GlobalSettings.intervals['b-box'].timerId = setInterval(function(){
-    //     var isBack = true;
-    //     // debugger;
-    //     GlobalSettings.intervals['b-box'].isBack = !GlobalSettings.intervals['b-box'].isBack;
-    //     isBack = GlobalSettings.intervals['b-box'].isBack;
-    //     $.each($('.b-box b'), function(el){
-    //         TweenMax.to(
-    //             this,
-    //             1,
-    //             {
-    //                 left: (isBack) ? 40 : -40,
-    //                 top: (isBack) ? 40 : -40
-    //             });
-    //     });
-    // }, 1000);
 
     $.each($('.b-box b'), function(){
         var el = this,
@@ -223,7 +217,7 @@ $(function(){
 
         TweenMax.to(
                     el,
-                    1,
+                    2,
                     {
                         left: 40,
                         top: 40
@@ -236,13 +230,13 @@ $(function(){
                     setInterval(function(){
                         TweenMax.to(
                             el,
-                            1,
+                            2,
                             {
                                 left: (that.isBack) ? 40 : -40,
                                 top: (that.isBack) ? 40 : -40
                             });
                         that.isBack = !that.isBack;
-                    }, 3000);
+                    }, 4000);
                 },
                 isBack: true
             });
@@ -253,48 +247,75 @@ $(function(){
 
     GlobalSettings.intervals['jumping-box'] = [];
 
+    jumpingBoxSpeed = 400;    
+
     GlobalSettings.intervals['jumping-box'].push({
         timerId: function(){
                 return setInterval(function(){
                     $('.js-boximg1').animate({
                         top: '10'
-                    }, 1000, function(){
+                    }, jumpingBoxSpeed/2, function(){
+                        $('.js-boximg1').stop();
                         $('.js-boximg1').animate({
                             top: '25'
-                        }, 1000);
+                        }, jumpingBoxSpeed/2);
                     });
-                }, 2000)
-        }()
-    })
+                }, jumpingBoxSpeed+1);
+        }
+    });
 
     GlobalSettings.intervals['jumping-box'].push({
         timerId: function(){
                 return setInterval(function(){
                     $('.js-boximg2').animate({
                         top: '7'
-                    }, 1000, function(){
+                    }, jumpingBoxSpeed/2, function(){
+                        $('.js-boximg2').stop();
                         $('.js-boximg2').animate({
                             top: '22'
-                        }, 1000);
+                        }, jumpingBoxSpeed/2);
                     });
-                }, 2000)
-        }()
-    })
+                }, jumpingBoxSpeed);
+        }
+    });
 
     GlobalSettings.intervals['jumping-box'].push({
         timerId: function(){
                 return setInterval(function(){
                     $('.js-boximg3').animate({
                         top: '13'
-                    }, 1000, function(){
+                    }, jumpingBoxSpeed/2, function(){
+                        $('.js-boximg3').stop();
                         $('.js-boximg3').animate({
                             top: '25'
-                        }, 1000);
+                        }, jumpingBoxSpeed/2);
                     });
-                }, 2000)
-        }()
-    })
+                }, jumpingBoxSpeed);
+        }
+    });
     
+    GlobalSettings.intervals['jumping-box'].push({
+        timerId: function(){
+                return setInterval(function(){
+                    $('.js-boximg4').animate({
+                        top: '8'
+                    }, jumpingBoxSpeed/2, function(){
+                        $('.js-boximg4').stop();
+                        $('.js-boximg4').animate({
+                            top: '20'
+                        }, jumpingBoxSpeed/2);
+                    });
+                }, jumpingBoxSpeed);
+        }
+    });
+    var index = 0;
+    $.each(GlobalSettings.intervals['jumping-box'], function(){
+        var that = this
+        index++; 
+        setTimeout(function(){
+            that.timerId();
+        }, jumpingBoxSpeed*8*(index/3));
+    });
 
     GlobalSettings.intervals['logo'] = [];
     GlobalSettings.intervals['logo'].push({
@@ -307,13 +328,13 @@ $(function(){
                 })
                 TweenMax.to(
                     $('.js-logo-blur').find('b'),
-                    0.5,
+                    2.7,
                     {
                         left: -50/*(that.isBack) ? -50 : 60*/,
                         top: -130/*(that.isBack) ? -130 : -40*/
                     });
                     that.isBack = !that.isBack;
-            }, 2000)
+            }, 7000);
         },
         isBack: true
     });
