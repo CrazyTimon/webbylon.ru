@@ -9,7 +9,7 @@ function main_intit(){
 	$('.b-main-top').css('top',-308);
 	$('.b-main-top .b-links a').css('left',-297);
 	$('.b-box').css('opacity',0);
-			
+	nextPage();
 	TweenMax.to($('.b-main-top'), 0.5, {top:0,ease:Power1.easeOut,onComplete:function(){
 		TweenMax.staggerTo($('.b-main-top .b-links a'),0.5,{left:0,ease:Power1.easeOut},0.5);
 		TweenMax.staggerTo($('.b-box'),1,{opacity:1,delay:1.2},0.5);
