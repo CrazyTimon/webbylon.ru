@@ -249,13 +249,14 @@ $(function(){
 
     GlobalSettings.intervals['jumping-box'] = [];
 
-    jumpingBoxSpeed = 400;    
+    jumpingBoxSpeed = 400;
+    intervalStartEndJump = 12;
 
     //прыгающие иконки блоков на главной странице
     GlobalSettings.intervals['jumping-box'].push({
         timerId: function(){
                 return setInterval(function(){
-                    var top = $('.js-boximg2').css('top');
+                    var top = $('.js-boximg1').css('top');
                     $('.js-boximg1').animate({
                         top: '10'
                     }, jumpingBoxSpeed/2, function(){
@@ -269,8 +270,9 @@ $(function(){
                             }, jumpingBoxSpeed/2);
                         });
                     });
-                }, jumpingBoxSpeed*6);
-        }
+                }, jumpingBoxSpeed*intervalStartEndJump);
+        },
+        $el: $('.js-boximg2')
     });
 
     GlobalSettings.intervals['jumping-box'].push({
@@ -290,8 +292,9 @@ $(function(){
                             }, jumpingBoxSpeed/2);
                         });
                     });
-                }, jumpingBoxSpeed*6);
-        }
+                }, jumpingBoxSpeed*intervalStartEndJump);
+        },
+        $el: $('.js-boximg2')
     });
 
     GlobalSettings.intervals['jumping-box'].push({
@@ -311,31 +314,42 @@ $(function(){
                             }, jumpingBoxSpeed/2);
                         });
                     });
-                }, jumpingBoxSpeed*6);
-        }
+                }, jumpingBoxSpeed*intervalStartEndJump);
+        },
+        $el: $('.js-boximg3')
     });
     
     GlobalSettings.intervals['jumping-box'].push({
         timerId: function(){
                 return setInterval(function(){
+                    var top = $('.js-boximg4').css('top');
                     $('.js-boximg4').animate({
                         top: '8'
                     }, jumpingBoxSpeed/2, function(){
                         $('.js-boximg4').stop();
                         $('.js-boximg4').animate({
                             top: '20'
-                        }, jumpingBoxSpeed/2);
+                        }, jumpingBoxSpeed/2, function(){
+                            $('.js-boximg4').stop();
+                            $('.js-boximg4').animate({
+                                top: top
+                            }, jumpingBoxSpeed/2);
+                        });
                     });
-                }, jumpingBoxSpeed);
-        }
+                }, jumpingBoxSpeed*6);
+        }(),
+        $el: $('.js-boximg4')
     });
     var index = 0;
+
     $.each(GlobalSettings.intervals['jumping-box'], function(){
         var that = this
         index++;
-        setTimeout(function(){
-            that.timerId();
-        }, jumpingBoxSpeed*6*(index/4));
+        if(that.$el[0] != $('.js-boximg4')[0]){
+            setTimeout(function(){
+                that.timerId();
+            }, jumpingBoxSpeed*6*(index/4));
+        }
     });
 
     GlobalSettings.intervals['logo'] = [];
