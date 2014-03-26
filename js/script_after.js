@@ -47,11 +47,31 @@ $(function(){
         tabsSwiper.swipeTo($(this).parent().index())
             
         setTimeout(function(){
+            var arr_length = $('.swiper-slide-active .js-slideBySlide').length;
+            $('.b-block1, .b-button-order').animate({
+                left: -423,
+            }, 1000);
+            TweenMax.set($('.b-block1, .b-button-order')[0],{left:-423});
             $.each($('.swiper-slide-active .js-slideBySlide'), function(){
                 var that = this;
                 counter++;
+                console.log($(that).hasClass('b-block1'));
                 setTimeout(function(){
-                    $(that).fadeIn(400);
+                    if($(that).hasClass('b-block1')|| $(that).hasClass('b-button-order')){
+                        // debugger;
+                        $(that).css('display', 'inline-block');
+                        // $(that).fadeIn(400, function(){
+                            // setTimeout(function(){
+                            var tl = new TimelineLite();
+                                tl.to($('.b-block1'), 0.5, {left:0,delay:1})
+                                  .to($('.b-button-order'), 0.5, {left:0});
+                                tl.play(0);
+
+                            // },3000)
+                        // });
+                    } else {
+                        $(that).fadeIn(400);
+                    }
                 }, 400*counter);
             });
         }, 1000);
