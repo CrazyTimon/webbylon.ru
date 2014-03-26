@@ -70,9 +70,9 @@ $(function(){
                             // },3000)
                         // });
                     } else {
-                        $(that).fadeIn(400);
+                        $(that).fadeIn(1000);
                     }
-                }, 400*counter);
+                }, 500*counter);
             });
         }, 1000);
         var bg = $(this).attr('data-background');
