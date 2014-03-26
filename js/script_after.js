@@ -211,6 +211,8 @@ $(function(){
     GlobalSettings.intervals['b-box'] = [];
     GlobalSettings.intervals['b-box'].isBack = true;// проигрывать анимацию в обратном порядке.
 
+
+    //"свечение" иконок на главной странице
     $.each($('.b-box b'), function(){
         var el = this,
             bBox;
@@ -249,48 +251,67 @@ $(function(){
 
     jumpingBoxSpeed = 400;    
 
+    //прыгающие иконки блоков на главной странице
     GlobalSettings.intervals['jumping-box'].push({
         timerId: function(){
                 return setInterval(function(){
+                    var top = $('.js-boximg2').css('top');
                     $('.js-boximg1').animate({
                         top: '10'
                     }, jumpingBoxSpeed/2, function(){
                         $('.js-boximg1').stop();
                         $('.js-boximg1').animate({
                             top: '25'
-                        }, jumpingBoxSpeed/2);
+                        }, jumpingBoxSpeed/2, function(){
+                            $('.js-boximg1').stop();
+                            $('.js-boximg1').animate({
+                                top: top
+                            }, jumpingBoxSpeed/2);
+                        });
                     });
-                }, jumpingBoxSpeed+1);
+                }, jumpingBoxSpeed*6);
         }
     });
 
     GlobalSettings.intervals['jumping-box'].push({
         timerId: function(){
                 return setInterval(function(){
+                    var top = $('.js-boximg2').css('top');
                     $('.js-boximg2').animate({
                         top: '7'
                     }, jumpingBoxSpeed/2, function(){
                         $('.js-boximg2').stop();
                         $('.js-boximg2').animate({
                             top: '22'
-                        }, jumpingBoxSpeed/2);
+                        }, jumpingBoxSpeed/2, function(){
+                            $('.js-boximg2').stop();
+                            $('.js-boximg2').animate({
+                                top: top
+                            }, jumpingBoxSpeed/2);
+                        });
                     });
-                }, jumpingBoxSpeed);
+                }, jumpingBoxSpeed*6);
         }
     });
 
     GlobalSettings.intervals['jumping-box'].push({
         timerId: function(){
                 return setInterval(function(){
+                    var top = $('.js-boximg3').css('top');
                     $('.js-boximg3').animate({
                         top: '13'
                     }, jumpingBoxSpeed/2, function(){
                         $('.js-boximg3').stop();
                         $('.js-boximg3').animate({
                             top: '25'
-                        }, jumpingBoxSpeed/2);
+                        }, jumpingBoxSpeed/2, function(){
+                            $('.js-boximg3').stop();
+                            $('.js-boximg3').animate({
+                                top: top
+                            }, jumpingBoxSpeed/2);
+                        });
                     });
-                }, jumpingBoxSpeed);
+                }, jumpingBoxSpeed*6);
         }
     });
     
@@ -311,10 +332,10 @@ $(function(){
     var index = 0;
     $.each(GlobalSettings.intervals['jumping-box'], function(){
         var that = this
-        index++; 
+        index++;
         setTimeout(function(){
             that.timerId();
-        }, jumpingBoxSpeed*8*(index/3));
+        }, jumpingBoxSpeed*6*(index/4));
     });
 
     GlobalSettings.intervals['logo'] = [];
