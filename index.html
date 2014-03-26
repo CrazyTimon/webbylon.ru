@@ -13,6 +13,23 @@
     <script src="js/script.js"></script>
     <script src="js/jpreloader.min.js"></script>
     <script src="js/jquery.address.js"></script>
+    <script language='javascript'>
+    jQuery.preloadImages = function() {
+     for(var i = 0; i < arguments.length; i++) {
+      jQuery("<img>").attr("src", arguments[i]);
+     }
+    };
+     
+    $(document).ready(function () {
+     $.preloadImages(
+      'images/bg_img1.jpg',
+      'images/bg_img2.jpg',
+      'images/bg_img3.jpg',
+      'images/bg_img4.jpg',
+      'images/bg_img5.jpg'
+     );
+    });
+    </script>
 	
   </head>
   <body style="background-image:url(images/bg_img1.jpg);">
