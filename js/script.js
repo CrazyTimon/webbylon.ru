@@ -18,6 +18,7 @@ function main_intit(){
 		TweenMax.staggerTo($('.b-main-top .b-links a'),0.5,{left:0,ease:Power1.easeOut},0.5);
 		TweenMax.staggerTo($('.b-box'),1,{opacity:1,delay:1.2},0.5);
 	}});
+	$('.b-bottom-from .b-line').removeClass('black');
 }
 
 function minHeight(){

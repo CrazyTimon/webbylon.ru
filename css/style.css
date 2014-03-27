@@ -915,6 +915,9 @@ height: 90px;
 position: absolute;
 left: -1618px;
 }
+.b-bottom-from .b-line.black{
+background: url(../images/footer_bg_black.png) no-repeat right 0;
+}
 .b-footer-ring{
 position: absolute;
 font-weight:normal;

@@ -39,8 +39,9 @@ $(function(){
         
         if (index_new == 0){
             main_intit();
+        } else {
+            $('.b-bottom-from .b-line').addClass('black');
         }
-                
         e.preventDefault()
         $(".tabs .active").removeClass('active')
         $(this).parent().addClass('active')
