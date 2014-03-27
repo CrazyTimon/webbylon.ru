@@ -25,7 +25,7 @@ $(function(){
     $('.tabs a').on('touchstart mousedown',function(e){ 
         $('html,body').animate({scrollTop:0},0);
         $.address.value($(this).attr('href'));
-        $('.js-slideBySlide').css('opacity', '0.1');
+        $('.js-slideBySlide').css('opacity', '0.0');
         var index_now = $('.b-menu .active').index(),
             index_new = $(this).parent().index(),
             counter = 0;
@@ -70,7 +70,9 @@ $(function(){
                             // },3000)
                         // });
                     } else {
-                        $(that).fadeIn(1000);
+                        $(that).animate({
+                            'opacity': 1,
+                        },1000);
                     }
                 }, 500*counter);
             });
