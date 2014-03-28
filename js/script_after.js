@@ -46,13 +46,14 @@ $(function(){
         $(".tabs .active").removeClass('active')
         $(this).parent().addClass('active')
         tabsSwiper.swipeTo($(this).parent().index())
-            
+        $('.b-block1, .b-button-order').css('left', '-423px');
         setTimeout(function(){
             var arr_length = $('.swiper-slide-active .js-slideBySlide').length;
-            $('.b-block1, .b-button-order').animate({
-                left: -423,
-            }, 1000);
-            TweenMax.set($('.b-block1, .b-button-order')[0],{left:-423});
+
+            // $('.b-block1, .b-button-order').animate({
+            //     left: -423,
+            // }, 1000);
+            // TweenMax.set($('.b-block1, .b-button-order')[0],{left:-423});
             $.each($('.swiper-slide-active .js-slideBySlide'), function(){
                 var that = this;
                 counter++;
