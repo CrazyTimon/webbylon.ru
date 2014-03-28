@@ -56,6 +56,72 @@ $(function(){
             $.each($('.swiper-slide-active .js-slideBySlide'), function(){
                 var that = this;
                 counter++;
+                // console.log($(that).hasClass('b-block1'));
+                setTimeout(function(){
+                    if($(that).hasClass('b-block1')|| $(that).hasClass('b-button-order')){
+                        // debugger;
+                        $(that).css('display', 'inline-block');
+
+                            var tl = new TimelineLite();
+                                tl.to($('.b-block1'), 0.5, {left:0,delay:1})
+                                  .to($('.b-button-order'), 0.5, {left:0});
+                                tl.play(0);
+                    } else {
+                        $(that).animate({
+                            'opacity': 1,
+                        },1000);
+                    }
+                }, 500*counter);
+            });
+        }, 1000);
+        var bg = $(this).attr('data-background');
+        $('body').css('background-image','url('+bg+')');
+        
+        downScroll();
+    })
+    
+    $('.b-href').on('click',function(e){ 
+        debugger;
+        var href = $(this).attr('href'),
+            index = parseInt($(this).attr('data-index')),
+            counter = 0;
+        
+        $('html,body').animate({scrollTop:0},0);
+        $.address.value(href);
+        $('.js-slideBySlide').css('opacity', '0.0');
+        
+        var index_now = $('.b-menu .active').index();
+        if (index_now > index){
+            // Prev
+            prevPage();         
+        }else{
+            // Next
+            nextPage();
+        }
+                
+        var bg = $('.b-menu [href="'+href+'"]').attr('data-background');
+        $('body').css('background-image','url('+bg+')');
+        
+        if (index == 0){
+            main_intit();
+        } else {
+            $('.b-bottom-from .b-line').addClass('black');
+        }
+
+        e.preventDefault();
+        $(".tabs .active").removeClass('active');
+        $(".tabs li").eq(index).addClass('active');
+        tabsSwiper.swipeTo(index);
+        
+        setTimeout(function(){
+            var arr_length = $('.swiper-slide-active .js-slideBySlide').length;
+            $('.b-block1, .b-button-order').animate({
+                left: -423,
+            }, 1000);
+            TweenMax.set($('.b-block1, .b-button-order')[0],{left:-423});
+            $.each($('.swiper-slide-active .js-slideBySlide'), function(){
+                var that = this;
+                counter++;
                 console.log($(that).hasClass('b-block1'));
                 setTimeout(function(){
                     if($(that).hasClass('b-block1')|| $(that).hasClass('b-button-order')){
@@ -78,37 +144,7 @@ $(function(){
                 }, 500*counter);
             });
         }, 1000);
-        var bg = $(this).attr('data-background');
-        $('body').css('background-image','url('+bg+')');
-        
-        downScroll();
-    })
-    
-    $('.b-href').on('click',function(e){ 
-        var href = $(this).attr('href');
-        var index = parseInt($(this).attr('data-index'));
-        
-        $('html,body').animate({scrollTop:0},0);
-        $.address.value(href);
-        
-        
-        var index_now = $('.b-menu .active').index();
-        if (index_now > index){
-            // Prev
-            prevPage();         
-        }else{
-            // Next
-            nextPage();
-        }
-                
-        var bg = $('.b-menu [href="'+href+'"]').attr('data-background');
-        $('body').css('background-image','url('+bg+')');
-        
-        e.preventDefault();
-        $(".tabs .active").removeClass('active');
-        $(".tabs li").eq(index).addClass('active');
-        tabsSwiper.swipeTo(index);
-        
+
         downScroll();
         return false;
     });
