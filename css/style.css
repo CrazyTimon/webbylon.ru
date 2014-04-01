@@ -1233,7 +1233,7 @@ margin-bottom: 10px;
 }
 
 .js-lvl1-1-mask{
-	width: 54px;
+	width: 93px;
 	height: 102px;
 	position: absolute;
 	left: 1060px;
@@ -1242,11 +1242,11 @@ margin-bottom: 10px;
 }
 
 .lvl1-1{
-	left: 1061px;
+	left: 1060px;
 	top: 119px;
-	background: #c7de85;
-	width: 53px;
+	width: 93px;
 	height: 102px;
+	background: url(../images/lvls-bg/1.png) no-repeat;
 	position: absolute;
 }
 
