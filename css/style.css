@@ -1222,6 +1222,102 @@ margin-bottom: 10px;
     width: 40px;
 }
 
+.js-lvl1-1{
+	background: #c7de85;
+	width: 54px;
+	height: 102px;
+	position: absolute;
+	left: 1060px;
+	top: 120px;
+	z-index: 0;
+}
+
+.js-lvl1-1-mask{
+	width: 54px;
+	height: 102px;
+	position: absolute;
+	left: 1060px;
+	top: 120px;
+	z-index: 3;
+}
+
+.lvl1-1{
+	left: 1061px;
+	top: 119px;
+	background: #c7de85;
+	width: 53px;
+	height: 102px;
+	position: absolute;
+}
+
+.lvl1-1_hover{
+	left: 1056px;/*текущая позиция - 5*/
+	top: 124px;
+	box-shadow: 4px -5px 10px 3px rgba(255, 255, 255, 0.5);
+	border: 1px solid #545454;
+	z-index: 1;
+}
+
+.lvl1-2{
+	left: 1086px;
+	top: 49px;
+	width: 28px;
+	height: 50px;
+	position: absolute;
+	background: url(../images/lvls-bg/2.png) no-repeat;
+}
+
+.js-lvl1-2-mask{
+	left: 1086px;
+	top: 49px;
+	width: 28px;
+	height: 50px;
+	position: absolute;
+	z-index: 3;
+}
+
+.lvl1-3{
+	left: 1057px;
+	top: 50px;
+	width: 28px;
+	height: 50px;
+	position: absolute;
+	background: url(../images/lvls-bg/3.png) no-repeat;
+}
+
+.js-lvl1-3-mask{
+	left: 1057px;
+	top: 50px;
+	width: 28px;
+	height: 50px;
+	position: absolute;
+	z-index: 3;
+}
+
+.lvl1-4{
+	left: 1086px;
+	top: 101px;
+	width: 28px;
+	height: 15px;
+	position: absolute;
+	background: #c3cbd0;
+}
+
+.js-lvl1-4-mask{
+	left: 1086px;
+	top: 101px;
+	width: 28px;
+	height: 15px;
+	position: absolute;
+	z-index: 3;
+}
+
+
+/*.transition-lvls{
+	-webkit-transition-property: top, left;
+	-webkit-transition-duration: 0.2s;
+}*/
+
 /* ------------------------------------------ */
 /* Responsive style */
 /* ------------------------------------------ */
