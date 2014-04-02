@@ -1232,13 +1232,9 @@ margin-bottom: 10px;
 	z-index: 0;
 }
 
-.js-lvl1-1-mask{
-	width: 93px;
-	height: 102px;
-	position: absolute;
-	left: 1060px;
-	top: 120px;
-	z-index: 3;
+.js-mask{
+	-webkit-transition-property: top, left;
+	-webkit-transition-duration: 0.2s;
 }
 
 .lvl1-1{
@@ -1246,16 +1242,15 @@ margin-bottom: 10px;
 	top: 119px;
 	width: 93px;
 	height: 102px;
-	background: url(../images/lvls-bg/1.png) no-repeat;
+	background: url(../images/lvls-bg/1-1.png) no-repeat;
 	position: absolute;
+	z-index: 3;
 }
 
-.lvl1-1_hover{
-	left: 1056px;/*текущая позиция - 5*/
-	top: 124px;
-	box-shadow: 4px -5px 10px 3px rgba(255, 255, 255, 0.5);
-	border: 1px solid #545454;
-	z-index: 1;
+.lvl1-1:hover{
+	left: 1055px;
+	top: 125px;
+	z-index: 4;
 }
 
 .lvl1-2{
@@ -1264,16 +1259,14 @@ margin-bottom: 10px;
 	width: 28px;
 	height: 50px;
 	position: absolute;
-	background: url(../images/lvls-bg/2.png) no-repeat;
+	background: url(../images/lvls-bg/1-2.png) no-repeat;
+	z-index: 3;
 }
 
-.js-lvl1-2-mask{
-	left: 1086px;
-	top: 49px;
-	width: 28px;
-	height: 50px;
-	position: absolute;
-	z-index: 3;
+.lvl1-2:hover{
+	left: 1081px;
+	top: 54px;
+	z-index: 4;
 }
 
 .lvl1-3{
@@ -1282,16 +1275,14 @@ margin-bottom: 10px;
 	width: 28px;
 	height: 50px;
 	position: absolute;
-	background: url(../images/lvls-bg/3.png) no-repeat;
+	background: url(../images/lvls-bg/1-3.png) no-repeat;
+	z-index: 3;
 }
 
-.js-lvl1-3-mask{
-	left: 1057px;
-	top: 50px;
-	width: 28px;
-	height: 50px;
-	position: absolute;
-	z-index: 3;
+.lvl1-3:hover{
+	left: 1052px;
+	top: 55px;
+	z-index: 4;
 }
 
 .lvl1-4{
@@ -1301,23 +1292,286 @@ margin-bottom: 10px;
 	height: 15px;
 	position: absolute;
 	background: #c3cbd0;
-}
-
-.js-lvl1-4-mask{
-	left: 1086px;
-	top: 101px;
-	width: 28px;
-	height: 15px;
-	position: absolute;
 	z-index: 3;
 }
 
+.lvl1-4:hover{
+	left: 1081px;
+	top: 106px;
+	z-index: 4;
+}
 
-/*.transition-lvls{
-	-webkit-transition-property: top, left;
-	-webkit-transition-duration: 0.2s;
-}*/
+.lvl1-5{
+	left: 1036px;
+	top: 33px;
+	width: 28px;
+	height: 50px;
+	position: absolute;
+	background: url(../images/lvls-bg/1-5.png) no-repeat;
+	z-index: 3;
+}
 
+.lvl1-5:hover{
+	left: 1031px;
+	top: 38px;
+	z-index: 4;
+}
+
+.lvl1-6{
+	left: 526px;
+	top: 9px;
+	width: 47px;
+	height: 70px;
+	position: absolute;
+	background: url(../images/lvls-bg/1-6.png) no-repeat;
+	z-index: 3;
+}
+
+.lvl1-6:hover{
+	left: 521px;
+	top: 14px;
+	z-index: 4;
+}
+
+.lvl1-7{
+	left: 446px;
+	top: 9px;
+	width: 80px;
+	height: 50px;
+	position: absolute;
+	background: url(../images/lvls-bg/1-7.png) no-repeat;
+	z-index: 3;
+}
+
+.lvl1-7:hover{
+	left: 441px;
+	top: 14px;
+	z-index: 4;
+}
+
+.lvl1-8{
+	left: 393px;
+	top: 7px;
+	width: 44px;
+	height: 50px;
+	position: absolute;
+	background: url(../images/lvls-bg/1-8.png) no-repeat;
+	z-index: 3;
+}
+
+.lvl1-8:hover{
+	left: 388px;
+	top: 12px;
+	z-index: 4;
+}
+
+.lvl2-1{
+	left: 979px;
+	top: 271px;
+	width: 67px;
+	height: 50px;
+	position: absolute;
+	background: url(../images/lvls-bg/2-1.png) no-repeat;
+	z-index: 3;
+}
+
+.lvl2-1:hover{
+	left: 974px;
+	top: 276px;
+	z-index: 4;
+}
+
+.lvl2-2{
+	left: 1082px;
+	top: 196px;
+	width: 57px;
+	height: 88px;
+	position: absolute;
+	background: url(../images/lvls-bg/2-2.png) no-repeat;
+	z-index: 3;
+}
+
+.lvl2-2:hover{
+	left: 1077px;
+	top: 201px;
+	z-index: 4;
+}
+
+.lvl2-3{
+	left: 1117px;
+	top: 154px;
+	width: 60px;
+	height: 50px;
+	position: absolute;
+	background: url(../images/lvls-bg/2-3.png) no-repeat;
+	z-index: 3;
+}
+
+.lvl2-3:hover{
+	left: 1112px;
+	top: 159px;
+	z-index: 4;
+}
+
+.lvl2-4{
+	left: 1117px;
+	top: 134px;
+	width: 44px;
+	height: 50px;
+	position: absolute;
+	background: url(../images/lvls-bg/2-4.png) no-repeat;
+	z-index: 3;
+}
+
+.lvl2-4:hover{
+	left: 1112px;
+	top: 139px;
+	z-index: 4;
+}
+
+.lvl2-5{
+	left: 1117px;
+	top: 109px;
+	width: 44px;
+	height: 50px;
+	position: absolute;
+	background: url(../images/lvls-bg/2-5.png) no-repeat;
+	z-index: 3;
+}
+
+.lvl2-5:hover{
+	left: 1112px;
+	top: 114px;
+	z-index: 4;
+}
+
+.lvl2-6{
+	left: 1082px;
+	top: 112px;
+	width: 44px;
+	height: 57px;
+	position: absolute;
+	background: url(../images/lvls-bg/2-6.png) no-repeat;
+	z-index: 3;
+}
+
+.lvl2-6:hover{
+	left: 1077px;
+	top: 117px;
+	z-index: 4;
+}
+
+.lvl2-7{
+	left: 1082px;
+	top: 170px;
+	width: 44px;
+	height: 50px;
+	position: absolute;
+	background: url(../images/lvls-bg/2-7.png) no-repeat;
+	z-index: 3;
+}
+
+.lvl2-7:hover{
+	left: 1077px;
+	top: 175px;
+	z-index: 4;
+}
+
+.lvl2-8{
+	left: 1110px;
+	top: 46px;
+	width: 44px;
+	height: 61px;
+	position: absolute;
+	background: url(../images/lvls-bg/2-8.png) no-repeat;
+	z-index: 3;
+}
+
+.lvl2-8:hover{
+	left: 1105px;
+	top: 51px;
+	z-index: 4;
+}
+
+.lvl2-9{
+	left: 1058px;
+	top: 30px;
+	width: 44px;
+	height: 50px;
+	position: absolute;
+	background: url(../images/lvls-bg/2-9.png) no-repeat;
+	z-index: 3;
+}
+
+.lvl2-9:hover{
+	left: 1053px;
+	top: 35px;
+	z-index: 4;
+}
+
+.lvl2-10{
+	left: 1082px;
+	top: 46px;
+	width: 44px;
+	height: 50px;
+	position: absolute;
+	background: url(../images/lvls-bg/2-10.png) no-repeat;
+	z-index: 3;
+}
+
+.lvl2-10:hover{
+	left: 1077px;
+	top: 51px;
+	z-index: 4;
+}
+
+.lvl2-11{
+	left: 594px;
+	top: 16px;
+	width: 69px;
+	height: 50px;
+	position: absolute;
+	background: url(../images/lvls-bg/2-11.png) no-repeat;
+	z-index: 3;
+}
+
+.lvl2-11:hover{
+	left: 589px;
+	top: 21px;
+	z-index: 4;
+}
+
+.lvl2-12{
+	left: 460px;
+	top: 13px;
+	width: 79px;
+	height: 50px;
+	position: absolute;
+	background: url(../images/lvls-bg/2-12.png) no-repeat;
+	z-index: 3;
+}
+
+.lvl2-12:hover{
+	left: 455px;
+	top: 18px;
+	z-index: 4;
+}
+
+.lvl2-13{
+	left: 404px;
+	top: 4px;
+	width: 44px;
+	height: 50px;
+	position: absolute;
+	background: url(../images/lvls-bg/2-13.png) no-repeat;
+	z-index: 3;
+}
+
+.lvl2-13:hover{
+	left: 399px;
+	top: 9px;
+	z-index: 4;
+}
 /* ------------------------------------------ */
 /* Responsive style */
 /* ------------------------------------------ */

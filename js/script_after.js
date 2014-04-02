@@ -446,34 +446,35 @@ $(function(){
      TweenMax.to(then,1,{left:0,top:0,ease:Cubic.easeOut});
     });
 
-    $('.js-mask').on('mouseover', function(e){
-        var $el = $(e.currentTarget),
-            pos = {
-                left: $el.next().position().left - 5,
-                top: $el.next().position().top +5
-            };
-        $el.next().css('z-index', 1);
-        $el.next().stop();
-        $el.next().animate({
-            left: pos.left,
-            top: pos.top
-        }, 100)
-    })
-    .on('mouseout', function(e){
-        var $el = $(e.currentTarget),
-            pos = {
-                left: $el.next().position().left + 5,
-                top: $el.next().position().top - 5
-            };
+    // $('.js-mask').on('mouseover', function(e){
+    //     var $el = $(e.currentTarget),
+    //         pos = {
+    //             left: $el.position().left - 5,
+    //             top: $el.position().top +5
+    //         };
 
-        $el.next().stop();
-        $el.next().animate({
-            left: pos.left,
-            top: pos.top
-        }, 100, function(){
-            $el.next().css('z-index', 0);
-        })
-    })
+    //     $el.stop();
+    //     $el.animate({
+    //         left: pos.left,
+    //         top: pos.top
+    //     }, 100)
+    // })
+    // .on('mouseout', function(e){
+    //     var $el = $(e.currentTarget),
+    //         pos = {
+    //             left: $el.position().left + 5,
+    //             top: $el.position().top - 5
+    //         };
+
+    //     $el.stop();
+    //     $el.animate({
+    //         left: pos.left,
+    //         top: pos.top
+    //     }, 100, function(){
+    //         $el.css('z-index', 0);
+    //     })
+    // })
+    
 });
 
 function downScroll(){
