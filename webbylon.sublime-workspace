@@ -11,7 +11,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 37430,
+				"buffer_size": 38149,
 				"line_ending": "Windows"
 			}
 		},
@@ -19,7 +19,7 @@
 			"file": "css/style.css",
 			"settings":
 			{
-				"buffer_size": 23203,
+				"buffer_size": 26533,
 				"line_ending": "Windows"
 			}
 		},
@@ -27,25 +27,15 @@
 			"file": "js/script_after.js",
 			"settings":
 			{
-				"buffer_size": 16392,
+				"buffer_size": 16375,
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "Searching 104 files for \"jpreloader\"\n\nC:\\GitHub\\webbylon.ru\\css\\preloader.css:\n    1: #jpreLoader, #qLloader {\n    2  		width: 496px;\n    3  		height: 184px;\n\nC:\\GitHub\\webbylon.ru\\index.html:\n   11  	<script src=\"http://cdnjs.cloudflare.com/ajax/libs/gsap/1.11.5/TweenMax.min.js\"></script>\n   12  	<script src=\"js/script.js\"></script>\n   13: 	<script src=\"js/jpreloader.min.js\"></script>\n   14  	<script src=\"js/jquery.address.js\"></script>\n   15  	\n\nC:\\GitHub\\webbylon.ru\\js\\jpreloader.min.js:\n    1: (function(a){var b=new Array,c=new Array,d=function(){},e=0;var f={splashVPos:\"35%\",loaderVPos:\"75%\",splashID:\"#jpreContent\",showSplash:true,showPercentage:true,autoClose:true,closeBtnText:\"Start!\",onetimeLoad:false,debugMode:false,splashFunction:function(){}};var g=function(){if(f.onetimeLoad){var a=document.cookie.split(\"; \");for(var b=0,c;c=a[b]&&a[b].split(\"=\");b++){if(c.shift()===\"jpreLoader\"){return c.join(\"=\")}}return false}else{return false}};var h=function(a){if(f.onetimeLoad){var b=new Date;b.setDate(b.getDate()+a);var c=a==null?\"\":\"expires=\"+b.toUTCString();document.cookie=\"jpreLoader=loaded; \"+c}};var i=function(){jOverlay=a(\"<div></div>\").attr(\"id\",\"jpreOverlay\").css({position:\"fixed\",top:0,left:0,width:\"100%\",height:\"100%\",zIndex:9999999}).appendTo(\"body\");if(f.showSplash){jContent=a(\"<div></div>\").attr(\"id\",\"jpreSlide\").appendTo(jOverlay);var b=a(window).width()-a(jContent).width();a(jContent).css({position:\"absolute\",top:f.splashVPos,left:Math.round(50/a(window).width()*b)+\"%\"});a(jContent).html(a(f.splashID).wrap(\"<div/>\").parent().html());a(f.splashID).remove();f.splashFunction()}jLoader=a(\"<div></div>\").attr(\"id\",\"jpreLoader\").appendTo(jOverlay);var c=a(window).width()-a(jLoader).width();a(jLoader).css({position:\"absolute\",top:f.loaderVPos,left:Math.round(50/a(window).width()*c)+\"%\"});jBar=a(\"<div></div>\").attr(\"id\",\"jpreBar\").css({width:\"0%\",height:\"100%\"}).appendTo(jLoader);if(f.showPercentage){jPer=a(\"<div></div>\").attr(\"id\",\"jprePercentage\").css({position:\"relative\",height:\"100%\"}).appendTo(jLoader).html(\"Loading...\")}if(!f.autoclose){jButton=a(\"<div></div>\").attr(\"id\",\"jpreButton\").on(\"click\",function(){n()}).css({position:\"relative\",height:\"100%\"}).appendTo(jLoader).text(f.closeBtnText).hide()}};var j=function(c){a(c).find(\"*:not(script)\").each(function(){var c=\"\";if(a(this).css(\"background-image\").indexOf(\"none\")==-1&&a(this).css(\"background-image\").indexOf(\"-gradient\")==-1){c=a(this).css(\"background-image\");if(c.indexOf(\"url\")!=-1){var d=c.match(/url\\((.*?)\\)/);c=d[1].replace(/\\\"/g,\"\")}}else if(a(this).get(0).nodeName.toLowerCase()==\"img\"&&typeof a(this).attr(\"src\")!=\"undefined\"){c=a(this).attr(\"src\")}if(c.length>0){b.push(c)}})};var k=function(){for(var a=0;a<b.length;a++){if(l(b[a]));}};var l=function(b){var d=new Image;a(d).load(function(){m()}).error(function(){c.push(a(this).attr(\"src\"));m()}).attr(\"src\",b)};var m=function(){e++;var c=Math.round(e/b.length*100);a(jBar).stop().animate({width:c+\"%\"},500,\"linear\");if(f.showPercentage){a(jPer).text(c+\"%\")}if(e>=b.length){e=b.length;h();if(f.showPercentage){a(jPer).text(\"100%\")}if(f.debugMode){var d=o()}a(jBar).stop().animate({width:\"100%\"},500,\"linear\",function(){if(f.autoClose)n();else a(jButton).fadeIn(1e3)})}};var n=function(){a(jOverlay).fadeOut(800,function(){a(jOverlay).remove();d()})};var o=function(){if(c.length>0){var a=\"ERROR - IMAGE FILES MISSING!!!\\n\\r\";a+=c.length+\" image files cound not be found. \\n\\r\";a+=\"Please check your image paths and filenames:\\n\\r\";for(var b=0;b<c.length;b++){a+=\"- \"+c[b]+\"\\n\\r\"}return true}else{return false}};a.fn.jpreLoader=function(b,c){if(b){a.extend(f,b)}if(typeof c==\"function\"){d=c}a(\"body\").css({display:\"block\"});return this.each(function(){if(!g()){i();j(this);k()}else{a(f.splashID).remove();d()}})}})(jQuery);\n    2  \n    3  $(function(){\n    4: 	$('body').jpreLoader({\n    5  		closeBtnText:''\n    6  	},main_intit);\n\n7 matches across 3 files\n\n\nSearching 110 files for \"boximg1.jpg\"\n\nC:\\GitHub\\webbylon.ru\\index.html:\n   73      						<div class=\"b-box-list\">\n   74      							<div class=\"b-box\">\n   75:     								<div class=\"b-img\"><img src=\"images/boximg1.jpg\" alt=\"\"><b></b></div>\n   76      								<div class=\"b-txt\">Кафе, рестораны, супермаркет, все виды бытовых услуг для сотрудников для ваших сотрудников</div>\n   77      							</div>\n   ..\n  272      										<div class=\"row\">\n  273      											<div class=\"col-md-4 col-xs-4\">\n  274:     												<div class=\"b-img\"><img src=\"images/boximg1.jpg\" alt=\"\"><b></b></div>\n  275      												<p><strong>Офисные блоки без отделки</strong>Площадь от 150 кв.м Цена от 170 1, не включая НДС и эксплуатационные расходы</p>\n  276      											</div>\n  ...\n  379      										<div class=\"row\">\n  380      											<div class=\"col-md-4 col-xs-4\">\n  381:     												<div class=\"b-img\"><img src=\"images/boximg1.jpg\" alt=\"\"><b></b></div>\n  382      												<p><strong>Офисные блоки без отделки</strong>Площадь от 150 кв.м Цена от 170 1, не включая НДС и эксплуатационные расходы</p>\n  383      											</div>\n\n3 matches in 1 file\n",
-			"settings":
-			{
-				"buffer_size": 5095,
-				"line_ending": "Windows",
-				"name": "Find Results",
-				"scratch": true
 			}
 		},
 		{
 			"file": "js/jpreloader.min.js",
 			"settings":
 			{
-				"buffer_size": 4337,
+				"buffer_size": 4336,
 				"line_ending": "Windows"
 			}
 		},
@@ -77,11 +67,11 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 173.0,
+		"height": 81.0,
 		"selected_items":
 		[
 			[
-				"remoce",
+				"remove",
 				"Package Control: Remove Package"
 			],
 			[
@@ -89,11 +79,27 @@
 				"Package Control: Install Package"
 			],
 			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"rempo",
+				"Package Control: Remove Package"
+			],
+			[
+				"remoce",
+				"Package Control: Remove Package"
+			],
+			[
 				"inst",
 				"Package Control: Install Package"
 			]
 		],
-		"width": 560.0
+		"width": 400.0
 	},
 	"console":
 	{
@@ -115,6 +121,9 @@
 	},
 	"file_history":
 	[
+		"/C/Users/home/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/home/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/home/AppData/Roaming/Sublime Text 3/Packages/User/CSSFontFamily.sublime-settings",
 		"/C/crazytimon/freelance/rupla.ru/index.html",
 		"/C/Users/home/AppData/Roaming/Sublime Text 3/Packages/User/SideBarGit.sublime-settings",
 		"/C/Dropbox/notes.txt",
@@ -123,7 +132,7 @@
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 46.0
 	},
 	"find_in_files":
 	{
@@ -138,6 +147,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			">\n",
+			"js-lvl1-1-mask",
 			"b-bottom-from",
 			"b-line",
 			"bg_img1",
@@ -173,15 +184,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 37430,
+						"buffer_size": 38149,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								34371,
-								34371
+								35619,
+								35619
 							]
 						],
 						"settings":
@@ -191,10 +202,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 11861.0,
+						"translation.y": 12276.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -203,15 +214,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 23203,
+						"buffer_size": 26533,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								20677,
-								20677
+								24637,
+								24637
 							]
 						],
 						"settings":
@@ -219,7 +230,7 @@
 							"syntax": "Packages/CSS/CSS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 18319.0,
+						"translation.y": 22821.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -231,15 +242,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 16392,
+						"buffer_size": 16375,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								15168,
-								15168
+								15580,
+								15580
 							]
 						],
 						"settings":
@@ -249,109 +260,27 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 6425.0,
+						"translation.y": 5615.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5095,
-						"regions":
-						{
-							"match":
-							{
-								"flags": 112,
-								"regions":
-								[
-									[
-										87,
-										97
-									],
-									[
-										360,
-										370
-									],
-									[
-										892,
-										902
-									],
-									[
-										1095,
-										1105
-									],
-									[
-										1654,
-										1664
-									],
-									[
-										3589,
-										3599
-									],
-									[
-										3843,
-										3853
-									],
-									[
-										4140,
-										4151
-									],
-									[
-										4492,
-										4503
-									],
-									[
-										4862,
-										4873
-									]
-								],
-								"scope": ""
-							}
-						},
-						"selection":
-						[
-							[
-								4148,
-								4148
-							]
-						],
-						"settings":
-						{
-							"detect_indentation": false,
-							"line_numbers": false,
-							"output_tag": 2,
-							"result_base_dir": "",
-							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
-							"result_line_regex": "^ +([0-9]+):",
-							"scroll_past_end": true,
-							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 750.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
 					"file": "js/jpreloader.min.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4337,
+						"buffer_size": 4336,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4169,
-								4169
+								4168,
+								4168
 							]
 						],
 						"settings":
@@ -366,7 +295,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 4,
 					"file": "js/script.js",
 					"semi_transient": false,
 					"settings":
@@ -391,11 +320,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 5,
 					"file": "js/html5shiv.js",
 					"semi_transient": true,
 					"settings":
@@ -421,11 +350,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 6,
 					"file": "/C/Dropbox/notes.txt",
 					"semi_transient": false,
 					"settings":
@@ -446,10 +375,10 @@
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 5581.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 4,
 					"type": "text"
 				}
 			]
