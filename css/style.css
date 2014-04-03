@@ -1872,114 +1872,114 @@ margin-bottom: 10px;
 
 /* ПЯТЫЙ ЭТАЖ ЭТАЖ */
 .lvl4-1{
-    left: 1064px;
-    top: 28px;
-    width: 38px;
-    height: 117px;
+    left: 248px;
+	top: 234px;
+	width: 301px;
+	height: 122px;
     position: absolute;
     background: url(../images/lvls-bg/4-1.png) no-repeat;
     z-index: 3;
 }
 
 .lvl4-1:hover{
-    left: 1059px;
-    top: 33px;
+    left: 243px;
+    top: 239px;
     z-index: 4;
 }
 
 .lvl4-2{
-    left: 1064px;
-    top: 28px;
-    width: 38px;
-    height: 117px;
+    left: 1025px;
+	top: 254px;
+	width: 132px;
+	height: 117px;
     position: absolute;
     background: url(../images/lvls-bg/4-2.png) no-repeat;
     z-index: 3;
 }
 
 .lvl4-2:hover{
-    left: 1059px;
-    top: 33px;
+    left: 1020px;
+    top: 259px;
     z-index: 4;
 }
 
 .lvl4-3{
-    left: 1064px;
-    top: 28px;
-    width: 38px;
-    height: 117px;
+   left: 775px;
+	top: 93px;
+	width: 38px;
+	height: 163px;
     position: absolute;
     background: url(../images/lvls-bg/4-3.png) no-repeat;
     z-index: 3;
 }
 
 .lvl4-3:hover{
-    left: 1059px;
-    top: 33px;
+    left: 770px;
+    top: 98px;
     z-index: 4;
 }
 
 .lvl4-4{
-    left: 1064px;
-    top: 28px;
-    width: 38px;
-    height: 117px;
+    left: 814px;
+	top: 104px;
+	width: 38px;
+	height: 154px
     position: absolute;
     background: url(../images/lvls-bg/4-4.png) no-repeat;
     z-index: 3;
 }
 
 .lvl4-4:hover{
-    left: 1059px;
-    top: 33px;
+    left: 809px;
+    top: 109px;
     z-index: 4;
 }
 
 .lvl4-5{
-    left: 1064px;
-    top: 28px;
-    width: 38px;
-    height: 117px;
+    left: 887px;
+	top: 104px;
+	width: 38px;
+	height: 163px;
     position: absolute;
     background: url(../images/lvls-bg/4-5.png) no-repeat;
     z-index: 3;
 }
 
 .lvl4-5:hover{
-    left: 1059px;
-    top: 33px;
+    left: 882px;
+    top: 109px;
     z-index: 4;
 }
 
 .lvl4-6{
-    left: 1064px;
-    top: 28px;
-    width: 38px;
-    height: 117px;
+    left: 930px;
+	top: 133px;
+	width: 52px;
+	height: 147px;
     position: absolute;
     background: url(../images/lvls-bg/4-6.png) no-repeat;
     z-index: 3;
 }
 
 .lvl4-6:hover{
-    left: 1059px;
-    top: 33px;
+    left: 925px;
+    top: 138px;
     z-index: 4;
 }
 
 .lvl4-7{
-    left: 1064px;
-    top: 28px;
-    width: 38px;
-    height: 117px;
+   left: 928px;
+	top: 88px;
+	width: 54px;
+	height: 117px;
     position: absolute;
     background: url(../images/lvls-bg/4-7.png) no-repeat;
     z-index: 3;
 }
 
 .lvl4-7:hover{
-    left: 1059px;
-    top: 33px;
+    left: 923px;
+    top: 93px;
     z-index: 4;
 }
 /* ПЯТЫЙ ЭТАЖ ЭТАЖ */
