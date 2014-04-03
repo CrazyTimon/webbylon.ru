@@ -1575,57 +1575,57 @@ margin-bottom: 10px;
 
 /* ЧЕТВЕРТЫЙ ЭТАЖ */
 .lvl3-1{
-    left: 404px;
-    top: 4px;
-    width: 44px;
-    height: 50px;
+   	left: 189px;
+	top: 226px;
+	width: 103px;
+	height: 55px;
     position: absolute;
     background: url(../images/lvls-bg/3-1.png) no-repeat;
     z-index: 3;
 }
 
 .lvl3-1:hover{
-    left: 399px;
-    top: 9px;
+    left: 185px;
+    top: 231px;
     z-index: 4;
 }
 
 .lvl3-2{
-    left: 404px;
-    top: 4px;
-    width: 44px;
-    height: 50px;
+    left: 271px;
+	top: 252px;
+	width: 238px;
+	height: 55px;
     position: absolute;
     background: url(../images/lvls-bg/3-2.png) no-repeat;
     z-index: 3;
 }
 
 .lvl3-2:hover{
-    left: 399px;
-    top: 9px;
+    left: 266px;
+    top: 257px;
     z-index: 4;
 }
 
 .lvl3-3{
-    left: 404px;
-    top: 4px;
-    width: 44px;
-    height: 50px;
+   left: 502px;
+	top: 252px;
+	width: 77px;
+	height: 137px;
     position: absolute;
     background: url(../images/lvls-bg/3-3.png) no-repeat;
     z-index: 3;
 }
 
 .lvl3-3:hover{
-    left: 399px;
-    top: 9px;
+    left: 497px;
+    top: 257px;
     z-index: 4;
 }
 
 .lvl3-4{
-    left: 404px;
-    top: 4px;
-    width: 44px;
+   left: 598px;
+	top: 269px;
+	width: 114px;
     height: 50px;
     position: absolute;
     background: url(../images/lvls-bg/3-4.png) no-repeat;
@@ -1633,14 +1633,14 @@ margin-bottom: 10px;
 }
 
 .lvl3-4:hover{
-    left: 399px;
-    top: 9px;
+    left: 594px;
+    top: 274px;
     z-index: 4;
 }
 
 .lvl3-5{
-    left: 404px;
-    top: 4px;
+    left: 710px;
+	top: 269px;
     width: 44px;
     height: 50px;
     position: absolute;
@@ -1649,15 +1649,15 @@ margin-bottom: 10px;
 }
 
 .lvl3-5:hover{
-    left: 399px;
-    top: 9px;
+    left: 705px;
+    top: 274px;
     z-index: 4;
 }
 
 .lvl3-6{
-    left: 404px;
-    top: 4px;
-    width: 44px;
+    left: 760px;
+	top: 269px;
+	width: 110px;
     height: 50px;
     position: absolute;
     background: url(../images/lvls-bg/3-6.png) no-repeat;
@@ -1665,14 +1665,14 @@ margin-bottom: 10px;
 }
 
 .lvl3-6:hover{
-    left: 399px;
-    top: 9px;
+    left: 755px;
+    top: 274px;
     z-index: 4;
 }
 
 .lvl3-7{
-    left: 404px;
-    top: 4px;
+    left: 864px;
+	top: 269px;
     width: 44px;
     height: 50px;
     position: absolute;
@@ -1681,15 +1681,15 @@ margin-bottom: 10px;
 }
 
 .lvl3-7:hover{
-    left: 399px;
-    top: 9px;
+    left: 859px;
+    top: 274px;
     z-index: 4;
 }
 
 .lvl3-8{
-    left: 404px;
-    top: 4px;
-    width: 44px;
+    left: 897px;
+	top: 269px;
+	width: 50px;
     height: 50px;
     position: absolute;
     background: url(../images/lvls-bg/3-8.png) no-repeat;
@@ -1697,15 +1697,15 @@ margin-bottom: 10px;
 }
 
 .lvl3-8:hover{
-    left: 399px;
-    top: 9px;
+    left: 892px;
+    top: 274px;
     z-index: 4;
 }
 
 .lvl3-9{
-    left: 404px;
-    top: 4px;
-    width: 44px;
+   left: 964px;
+	top: 266px;
+	width: 66px;
     height: 50px;
     position: absolute;
     background: url(../images/lvls-bg/3-9.png) no-repeat;
@@ -1713,15 +1713,15 @@ margin-bottom: 10px;
 }
 
 .lvl3-9:hover{
-    left: 399px;
-    top: 9px;
+    left: 959px;
+    top: 271px;
     z-index: 4;
 }
 
 .lvl3-10{
-    left: 404px;
-    top: 4px;
-    width: 44px;
+    left: 1039px;
+	top: 264px;
+	width: 80px;
     height: 50px;
     position: absolute;
     background: url(../images/lvls-bg/3-10.png) no-repeat;
@@ -1729,56 +1729,56 @@ margin-bottom: 10px;
 }
 
 .lvl3-10:hover{
-    left: 399px;
-    top: 9px;
+    left: 1034px;
+    top: 269px;
     z-index: 4;
 }
 
 .lvl3-11{
-    left: 404px;
-    top: 4px;
-    width: 44px;
-    height: 50px;
+    left: 797px;
+	top: 96px;
+	width: 71px;
+	height: 174px;
     position: absolute;
     background: url(../images/lvls-bg/3-11.png) no-repeat;
     z-index: 3;
 }
 
 .lvl3-11:hover{
-    left: 399px;
-    top: 9px;
+    left: 792px;
+    top: 101px;
     z-index: 4;
 }
 
 .lvl3-12{
-    left: 404px;
-    top: 4px;
-    width: 44px;
-    height: 50px;
+    left: 845px;
+	top: 196px;
+	width: 44px;
+	height: 110px;
     position: absolute;
     background: url(../images/lvls-bg/3-12.png) no-repeat;
     z-index: 3;
 }
 
 .lvl3-12:hover{
-    left: 399px;
-    top: 9px;
+    left: 840px;
+    top: 201px;
     z-index: 4;
 }
 
 .lvl3-13{
-    left: 404px;
-    top: 4px;
-    width: 44px;
-    height: 50px;
+   left: 845px;
+	top: 107px;
+	width: 44px;
+	height: 89px;
     position: absolute;
     background: url(../images/lvls-bg/3-13.png) no-repeat;
     z-index: 3;
 }
 
 .lvl3-13:hover{
-    left: 399px;
-    top: 9px;
+    left: 840px;
+    top: 112px;
     z-index: 4;
 }
 
@@ -1799,66 +1799,66 @@ margin-bottom: 10px;
 }
 
 .lvl3-15{
-    left: 404px;
-    top: 4px;
-    width: 44px;
-    height: 50px;
+    left: 912px;
+	top: 107px;
+	width: 44px;
+	height: 174px;
     position: absolute;
     background: url(../images/lvls-bg/3-15.png) no-repeat;
     z-index: 3;
 }
 
 .lvl3-15:hover{
-    left: 399px;
-    top: 9px;
+    left: 907px;
+    top: 112px;
     z-index: 4;
 }
 
 .lvl3-16{
-    left: 404px;
-    top: 4px;
-    width: 44px;
-    height: 50px;
+   left: 959px;
+	top: 138px;
+	width: 44px;
+	height: 151px;
     position: absolute;
     background: url(../images/lvls-bg/3-16.png) no-repeat;
     z-index: 3;
 }
 
 .lvl3-16:hover{
-    left: 399px;
-    top: 9px;
+    left: 954px;
+    top: 143px;
     z-index: 4;
 }
 
 .lvl3-17{
-    left: 404px;
-    top: 4px;
-    width: 44px;
-    height: 50px;
+    left: 1064px;
+	top: 144px;
+	width: 44px;
+	height: 118px;
     position: absolute;
     background: url(../images/lvls-bg/3-17.png) no-repeat;
     z-index: 3;
 }
 
 .lvl3-17:hover{
-    left: 399px;
-    top: 9px;
+    left: 1059px;
+    top: 149px;
     z-index: 4;
 }
 
 .lvl3-18{
-    left: 404px;
-    top: 4px;
-    width: 44px;
-    height: 50px;
+	left: 1064px;
+	top: 28px;
+	width: 38px;
+	height: 117px;
     position: absolute;
     background: url(../images/lvls-bg/3-18.png) no-repeat;
     z-index: 3;
 }
 
 .lvl3-18:hover{
-    left: 399px;
-    top: 9px;
+    left: 1059px;
+    top: 33px;
     z-index: 4;
 }
 /* ЧЕТВЕРТЫЙ ЭТАЖ */
