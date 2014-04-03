@@ -1743,8 +1743,8 @@ margin-bottom: 10px;
 .lvl3-11{
     left: 797px;
 	top: 96px;
-	width: 71px;
-	height: 174px;
+	width: 38px;
+	height: 164px;
     position: absolute;
     background: url(../images/lvls-bg/3-11.png) no-repeat;
     z-index: 3;
@@ -1789,26 +1789,26 @@ margin-bottom: 10px;
 }
 
 .lvl3-14{
-    left: 404px;
-    top: 4px;
-    width: 44px;
-    height: 50px;
+    left: 966px;
+    top: 97px;
+    width: 31px;
+    height: 29px;
     position: absolute;
     background: url(../images/lvls-bg/3-14.png) no-repeat;
     z-index: 3;
 }
 
 .lvl3-14:hover{
-    left: 399px;
-    top: 9px;
+    left: 961px;
+    top: 102px;
     z-index: 4;
 }
 
 .lvl3-15{
     left: 912px;
 	top: 107px;
-	width: 44px;
-	height: 174px;
+	width: 37px;
+	height: 153px;
     position: absolute;
     background: url(../images/lvls-bg/3-15.png) no-repeat;
     z-index: 3;
@@ -1821,10 +1821,10 @@ margin-bottom: 10px;
 }
 
 .lvl3-16{
-   left: 959px;
+    left: 959px;
 	top: 138px;
-	width: 44px;
-	height: 151px;
+	width: 38px;
+	height: 126px;
     position: absolute;
     background: url(../images/lvls-bg/3-16.png) no-repeat;
     z-index: 3;
