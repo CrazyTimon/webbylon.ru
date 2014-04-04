@@ -467,6 +467,7 @@ padding: 26px 29px;
 padding-bottom:15px;
 padding-right: 0;
 padding-left: 44px;
+opacity: 0.8;
 }
 
 .b-data-block .b-block1 b{
@@ -474,10 +475,11 @@ content: '';
 width: 0;
 height: 0;
 border-top: 448px solid #FF9400;
-border-right: 201px solid rgba(0, 0, 0, 0);
+border-right: 199px solid rgba(0, 0, 0, 0);
 position: absolute;
 bottom: -5px;
 right: 2px;
+opacity: 0.8;
 }
 
 .b-metro-block{
@@ -512,6 +514,7 @@ position: relative;
 margin-top: 31px;
 margin-left: -24px;
 padding-left: 51px;
+opacity: 0.8;
 }
 .b-button-order:hover{
 color:#ffa12a;
