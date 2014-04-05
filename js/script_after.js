@@ -1,4 +1,22 @@
-$(function(){    
+$(function(){
+    function changeBGmagic(background, index){
+        if ( index == 0 ) {
+            $('body').css({
+                'background-image': 'url(images/bg_img1.jpg)',
+                'background-position': '100% 108px',
+                'background-size': 'cover',
+                'background-attachment': 'fixed',
+                'background-repeat': ' no-repeat'
+            });
+        } else {
+            $('body').css({
+                'background-image':'url('+background+')',
+                'background-position': '0px 0px',
+                'background-attachment': 'fixed'
+            });
+        }
+    }
+
     $(window).resize(function(e) {
         downScroll();
     });
@@ -18,14 +36,7 @@ $(function(){
                 tabsSwiper.swipeTo(link_active);
                 var bg = $('[href="'+href_active+'"]').attr('data-background');
                 $('[href="'+href_active+'"]').parent().addClass('active');
-                $('.bg-image').css({
-                    'background': 'url('+bg+')',
-                    'background-size': 'cover',
-                    'width': '100%',
-                    'height': '100%',
-                    'position': 'absolute',
-                    'background-size': 'cover'
-                });
+                changeBGmagic(bg, link_active);
             },200);
         }
     
@@ -83,15 +94,7 @@ $(function(){
             });
         }, 1000);
         var bg = $(this).attr('data-background');
-        $('.bg-image').css({
-            'background': 'url('+bg+')',
-            'background-size': 'cover',
-            'width': '100%',
-            'height': '100%',
-            'position': 'absolute',
-            'background-size': 'cover'
-            });
-
+        changeBGmagic(bg, index_new);        
         downScroll();
     })
     
@@ -115,15 +118,8 @@ $(function(){
         }
                 
         var bg = $('.b-menu [href="'+href+'"]').attr('data-background');
-        $('.bg-image').css({
-            'background': 'url('+bg+')',
-            'background-size': 'cover',
-            'width': '100%',
-            'height': '100%',
-            'position': 'absolute',
-            'background-size': 'cover'
-            });
-        
+        changeBGmagic(bg, index_now);
+
         if (index == 0){
             main_intit();
         } else {
@@ -180,14 +176,7 @@ $(function(){
     var active = $('.swiper-slide-active').index();
     var bgBody = $('.b-menu li').eq(active).find('a').attr('data-background');
     $('.b-menu li').eq(active).addClass('active');
-    $('.bg-image').css({
-            'background': 'url('+bgBody+')',
-            'background-size': 'cover',
-            'width': '100%',
-            'height': '100%',
-            'position': 'absolute',
-            'background-size': 'cover'
-            });
+    // changeBGmagic(bgBody);
 
     $('.fancybox').fancybox();
     
