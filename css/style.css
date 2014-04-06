@@ -13,7 +13,7 @@ min-width:960px;
 padding-top:108px;
 color:#000;
 
-/*	    transition:background-image 0.8s 0.3s ease;
+/*      transition:background-image 0.8s 0.3s ease;
    -moz-transition:background-image 0.8s 0.3s ease;
     -ms-transition:background-image 0.8s 0.3s ease;
      -o-transition:background-image 0.8s 0.3s ease;
@@ -21,11 +21,11 @@ color:#000;
 }
 
 .bg-image{
-	transition: background-image 0.8s 0.3s ease;
-	-moz-transition: background-image 0.8s 0.3s ease;
-	-ms-transition: background-image 0.8s 0.3s ease;
-	-o-transition: background-image 0.8s 0.3s ease;
-	-webkit-transition: background-image 0.8s 0.3s ease;
+    transition: background-image 0.8s 0.3s ease;
+    -moz-transition: background-image 0.8s 0.3s ease;
+    -ms-transition: background-image 0.8s 0.3s ease;
+    -o-transition: background-image 0.8s 0.3s ease;
+    -webkit-transition: background-image 0.8s 0.3s ease;
 }
 .container{
 max-width:1570px;
@@ -711,20 +711,20 @@ background:url(../images/glow_img.png) no-repeat;
 }
 
 .js-logo-blur{
-	height: 100px;
-	width: 81px;
-	overflow: hidden;
+    height: 100px;
+    width: 81px;
+    overflow: hidden;
 }
 
 .js-logo-blur b{
-	z-index: 999999;
-	height: 91px;
-	width: 91px;
-	position: relative;
-	display: block;
-	left:60px;
-	top:-40px;
-	background:url(../images/glow_img.png) no-repeat;
+    z-index: 999999;
+    height: 91px;
+    width: 91px;
+    position: relative;
+    display: block;
+    left:60px;
+    top:-40px;
+    background:url(../images/glow_img.png) no-repeat;
 }
 
 .b-box-inner strong{
@@ -853,9 +853,9 @@ margin-bottom: 13px;
 line-height: 19px;
 }
 .b-radio input {
-	position: absolute;
-	left: -9999em;
-	top: 0px;
+    position: absolute;
+    left: -9999em;
+    top: 0px;
 }
 .b-radio .b-input {
 background: url(../images/radio.png) left top;
@@ -866,7 +866,7 @@ vertical-align: top;
 margin-right: 8px;
 }
 .b-radio.b-active .b-input {
-	background: url(../images/radio.png) left bottom;
+    background: url(../images/radio.png) left bottom;
 }
 .requaed{
 color:#ffc905;
@@ -875,14 +875,14 @@ margin-left: 4px;
 .b-input-text{
 background:#5e616a;
 border:none;
-border-top:1px solid #18181b;	
+border-top:1px solid #18181b;   
 width: 491px;
 height: 30px;
 -webkit-box-shadow:inset 0 1px 0 #292B2F, inset 0 2px 0 #4c4f56;
    -moz-box-shadow:inset 0 1px 0 #292B2F, inset 0 2px 0 #4c4f56;
     -ms-box-shadow:inset 0 1px 0 #292B2F, inset 0 2px 0 #4c4f56;
-	 -o-box-shadow:inset 0 1px 0 #292B2F, inset 0 2px 0 #4c4f56;
-	    box-shadow:inset 0 1px 0 #292B2F, inset 0 2px 0 #4c4f56;
+     -o-box-shadow:inset 0 1px 0 #292B2F, inset 0 2px 0 #4c4f56;
+        box-shadow:inset 0 1px 0 #292B2F, inset 0 2px 0 #4c4f56;
 }
 textarea.b-input-text{
 height: 90px;
@@ -1037,9 +1037,9 @@ position: relative;
 left: -297px;
 -webkit-transform: skew(24deg);
    -moz-transform: skew(24deg);
-   	-ms-transform: skew(24deg);
-	 -o-transform: skew(24deg);
-	 	transform: skew(24deg);
+    -ms-transform: skew(24deg);
+     -o-transform: skew(24deg);
+        transform: skew(24deg);
 
 }
 .b-main-top .b-links a span{
@@ -1124,6 +1124,7 @@ height:39px;
 display:inline-block;
 vertical-align:middle;
 margin-right:15px;
+background:#c3cbd0;
 }
 .b-legenda .b-color.b-free{
 background:#c7de85;
@@ -1178,51 +1179,51 @@ margin-bottom: 10px;
 }
 
 .js-loaderoverlay img{
-	margin-top: -50px;
-	margin-left: -40px;
+    margin-top: -50px;
+    margin-left: -40px;
 }
 
 .js-loaderoverlay{
-	height: 100%;
-	width: 100%;
-	background: #292c33;
-	z-index: 999999;
-	position: fixed;
-	top: 0px;
-	left: 0px;
+    height: 100%;
+    width: 100%;
+    background: #292c33;
+    z-index: 999999;
+    position: fixed;
+    top: 0px;
+    left: 0px;
 }
 
 #canvasloader-container{
-	left: 50%;
-	top: 50%;
-	position: absolute
+    left: 50%;
+    top: 50%;
+    position: absolute
 }
 
 .js-boximg1{
-	background: url(../images/boximg1.png) no-repeat;
-	position: absolute;
-	top: 18px;
-	left: 18px;
-	height: 40px;
-	width: 49px;
+    background: url(../images/boximg1.png) no-repeat;
+    position: absolute;
+    top: 18px;
+    left: 18px;
+    height: 40px;
+    width: 49px;
 }
 
 .js-boximg2{
-	background: url(../images/boximg2.png) no-repeat;
-	position: absolute;
-	top: 18px;
-	left: 23px;
-	height: 48px;
-	width: 40px;
+    background: url(../images/boximg2.png) no-repeat;
+    position: absolute;
+    top: 18px;
+    left: 23px;
+    height: 48px;
+    width: 40px;
 }
 
 .js-boximg3{
-	background: url(../images/boximg3.png) no-repeat;
-	position: absolute;
-	top: 18px;
-	left: 23px;
-	height: 42px;
-	width: 40px;
+    background: url(../images/boximg3.png) no-repeat;
+    position: absolute;
+    top: 18px;
+    left: 23px;
+    height: 42px;
+    width: 40px;
 }
 .js-boximg4{
     background: url(../images/boximg_footer.png) no-repeat;
@@ -1234,17 +1235,17 @@ margin-bottom: 10px;
 }
 
 .js-lvl1-1{
-	background: #c7de85;
-	width: 54px;
-	height: 102px;
-	position: absolute;
-	left: 1060px;
-	top: 120px;
-	z-index: 0;
+    background: #c7de85;
+    width: 54px;
+    height: 102px;
+    position: absolute;
+    left: 1060px;
+    top: 120px;
+    z-index: 0;
 }
 
 .js-mask{
-	-webkit-transition-property: top, left;
+    -webkit-transition-property: top, left;
     -moz-transition-property: top, left;
     -o-transition-property: top, left;
     transition-property: top, left;
@@ -1255,347 +1256,363 @@ margin-bottom: 10px;
 }
 
 .lvl1-1{
-	left: 1060px;
-	top: 119px;
-	width: 93px;
-	height: 102px;
-	background: url(../images/lvls-bg/1-1.png) no-repeat;
-	position: absolute;
-	z-index: 3;
+    left: 1060px;
+    top: 154px;
+    width: 93px;
+    height: 70px;
+    background: url(../images/lvls-bg/1-1.png) 0px -35px no-repeat;
+    position: absolute;
+    z-index: 3;
 }
 
 .lvl1-1:hover{
-	left: 1055px;
-	top: 125px;
-	z-index: 4;
+    left: 1055px;
+    top: 159px;
+    z-index: 4;
+}
+
+.lvl1-1-1{
+    left: 1060px;
+    top: 118px;
+    width: 93px;
+    height: 36px;
+    background: url(../images/lvls-bg/1-1-1.png) no-repeat;
+    position: absolute;
+    z-index: 3;
+}
+
+.lvl1-1-1:hover{
+    left: 1055px;
+    top: 123px;
+    z-index: 4;
 }
 
 .lvl1-2{
-	left: 1086px;
-	top: 49px;
-	width: 28px;
-	height: 50px;
-	position: absolute;
-	background: url(../images/lvls-bg/1-2.png) no-repeat;
-	z-index: 3;
+    left: 1086px;
+    top: 49px;
+    width: 28px;
+    height: 50px;
+    position: absolute;
+    background: url(../images/lvls-bg/1-2.png) no-repeat;
+    z-index: 3;
 }
 
 .lvl1-2:hover{
-	left: 1081px;
-	top: 54px;
-	z-index: 4;
+    left: 1081px;
+    top: 54px;
+    z-index: 4;
 }
 
 .lvl1-3{
-	left: 1057px;
-	top: 50px;
-	width: 28px;
-	height: 50px;
-	position: absolute;
-	background: url(../images/lvls-bg/1-3.png) no-repeat;
-	z-index: 3;
+    left: 1057px;
+    top: 50px;
+    width: 28px;
+    height: 50px;
+    position: absolute;
+    background: url(../images/lvls-bg/1-3.png) no-repeat;
+    z-index: 3;
 }
 
 .lvl1-3:hover{
-	left: 1052px;
-	top: 55px;
-	z-index: 4;
+    left: 1052px;
+    top: 55px;
+    z-index: 4;
 }
 
 .lvl1-4{
-	left: 1086px;
-	top: 101px;
-	width: 28px;
-	height: 15px;
-	position: absolute;
-	background: #c3cbd0;
-	z-index: 3;
+    left: 1086px;
+    top: 101px;
+    width: 28px;
+    height: 15px;
+    position: absolute;
+    background: #c3cbd0;
+    z-index: 3;
 }
 
 .lvl1-4:hover{
-	left: 1081px;
-	top: 106px;
-	z-index: 4;
+    left: 1081px;
+    top: 106px;
+    z-index: 4;
 }
 
 .lvl1-5{
-	left: 1036px;
-	top: 33px;
-	width: 28px;
-	height: 50px;
-	position: absolute;
-	background: url(../images/lvls-bg/1-5.png) no-repeat;
-	z-index: 3;
+    left: 1036px;
+    top: 33px;
+    width: 28px;
+    height: 50px;
+    position: absolute;
+    background: url(../images/lvls-bg/1-5.png) no-repeat;
+    z-index: 3;
 }
 
 .lvl1-5:hover{
-	left: 1031px;
-	top: 38px;
-	z-index: 4;
+    left: 1031px;
+    top: 38px;
+    z-index: 4;
 }
 
 .lvl1-6{
-	left: 526px;
-	top: 9px;
-	width: 47px;
-	height: 70px;
-	position: absolute;
-	background: url(../images/lvls-bg/1-6.png) no-repeat;
-	z-index: 3;
+    left: 526px;
+    top: 9px;
+    width: 47px;
+    height: 70px;
+    position: absolute;
+    background: url(../images/lvls-bg/1-6.png) no-repeat;
+    z-index: 3;
 }
 
 .lvl1-6:hover{
-	left: 521px;
-	top: 14px;
-	z-index: 4;
+    left: 521px;
+    top: 14px;
+    z-index: 4;
 }
 
 .lvl1-7{
-	left: 446px;
-	top: 9px;
-	width: 80px;
-	height: 50px;
-	position: absolute;
-	background: url(../images/lvls-bg/1-7.png) no-repeat;
-	z-index: 3;
+    left: 446px;
+    top: 9px;
+    width: 80px;
+    height: 50px;
+    position: absolute;
+    background: url(../images/lvls-bg/1-7.png) no-repeat;
+    z-index: 3;
 }
 
 .lvl1-7:hover{
-	left: 441px;
-	top: 14px;
-	z-index: 4;
+    left: 441px;
+    top: 14px;
+    z-index: 4;
 }
 
 .lvl1-8{
-	left: 393px;
-	top: 7px;
-	width: 44px;
-	height: 50px;
-	position: absolute;
-	background: url(../images/lvls-bg/1-8.png) no-repeat;
-	z-index: 3;
+    left: 393px;
+    top: 7px;
+    width: 44px;
+    height: 50px;
+    position: absolute;
+    background: url(../images/lvls-bg/1-8.png) no-repeat;
+    z-index: 3;
 }
 
 .lvl1-8:hover{
-	left: 388px;
-	top: 12px;
-	z-index: 4;
+    left: 388px;
+    top: 12px;
+    z-index: 4;
 }
 
 .lvl2-1{
-	left: 979px;
-	top: 271px;
-	width: 67px;
-	height: 50px;
-	position: absolute;
-	background: url(../images/lvls-bg/2-1.png) no-repeat;
-	z-index: 3;
+    left: 979px;
+    top: 271px;
+    width: 67px;
+    height: 50px;
+    position: absolute;
+    background: url(../images/lvls-bg/2-1.png) no-repeat;
+    z-index: 3;
 }
 
 .lvl2-1:hover{
-	left: 974px;
-	top: 276px;
-	z-index: 4;
+    left: 974px;
+    top: 276px;
+    z-index: 4;
 }
 
 .lvl2-2{
-	left: 1082px;
-	top: 196px;
-	width: 57px;
-	height: 88px;
-	position: absolute;
-	background: url(../images/lvls-bg/2-2.png) no-repeat;
-	z-index: 3;
+    left: 1082px;
+    top: 196px;
+    width: 57px;
+    height: 88px;
+    position: absolute;
+    background: url(../images/lvls-bg/2-2.png) no-repeat;
+    z-index: 3;
 }
 
 .lvl2-2:hover{
-	left: 1077px;
-	top: 201px;
-	z-index: 4;
+    left: 1077px;
+    top: 201px;
+    z-index: 4;
 }
 
 .lvl2-3{
-	left: 1117px;
-	top: 154px;
-	width: 60px;
-	height: 50px;
-	position: absolute;
-	background: url(../images/lvls-bg/2-3.png) no-repeat;
-	z-index: 3;
+    left: 1117px;
+    top: 154px;
+    width: 60px;
+    height: 50px;
+    position: absolute;
+    background: url(../images/lvls-bg/2-3.png) no-repeat;
+    z-index: 3;
 }
 
 .lvl2-3:hover{
-	left: 1112px;
-	top: 159px;
-	z-index: 4;
+    left: 1112px;
+    top: 159px;
+    z-index: 4;
 }
 
 .lvl2-4{
-	left: 1117px;
-	top: 134px;
-	width: 44px;
-	height: 22px;
-	position: absolute;
-	background: url(../images/lvls-bg/2-4.png) no-repeat;
-	z-index: 3;
+    left: 1117px;
+    top: 134px;
+    width: 44px;
+    height: 22px;
+    position: absolute;
+    background: url(../images/lvls-bg/2-4.png) no-repeat;
+    z-index: 3;
 }
 
 .lvl2-4:hover{
-	left: 1112px;
-	top: 139px;
-	z-index: 4;
+    left: 1112px;
+    top: 139px;
+    z-index: 4;
 }
 
 .lvl2-5{
-	left: 1117px;
-	top: 109px;
-	width: 44px;
-	height: 25px;
-	position: absolute;
-	background: url(../images/lvls-bg/2-5.png) no-repeat;
-	z-index: 3;
+    left: 1117px;
+    top: 109px;
+    width: 44px;
+    height: 25px;
+    position: absolute;
+    background: url(../images/lvls-bg/2-5.png) no-repeat;
+    z-index: 3;
 }
 
 .lvl2-5:hover{
-	left: 1112px;
-	top: 114px;
-	z-index: 4;
+    left: 1112px;
+    top: 114px;
+    z-index: 4;
 }
 
 .lvl2-6{
-	left: 1082px;
-	top: 112px;
-	width: 44px;
-	height: 57px;
-	position: absolute;
-	background: url(../images/lvls-bg/2-6.png) no-repeat;
-	z-index: 3;
+    left: 1082px;
+    top: 112px;
+    width: 44px;
+    height: 57px;
+    position: absolute;
+    background: url(../images/lvls-bg/2-6.png) no-repeat;
+    z-index: 3;
 }
 
 .lvl2-6:hover{
-	left: 1077px;
-	top: 117px;
-	z-index: 4;
+    left: 1077px;
+    top: 117px;
+    z-index: 4;
 }
 
 .lvl2-7{
-	left: 1082px;
-	top: 170px;
-	width: 44px;
-	height: 50px;
-	position: absolute;
-	background: url(../images/lvls-bg/2-7.png) no-repeat;
-	z-index: 3;
+    left: 1082px;
+    top: 170px;
+    width: 44px;
+    height: 50px;
+    position: absolute;
+    background: url(../images/lvls-bg/2-7.png) no-repeat;
+    z-index: 3;
 }
 
 .lvl2-7:hover{
-	left: 1077px;
-	top: 175px;
-	z-index: 4;
+    left: 1077px;
+    top: 175px;
+    z-index: 4;
 }
 
 .lvl2-8{
-	left: 1110px;
-	top: 46px;
-	width: 44px;
-	height: 61px;
-	position: absolute;
-	background: url(../images/lvls-bg/2-8.png) no-repeat;
-	z-index: 3;
+    left: 1110px;
+    top: 46px;
+    width: 44px;
+    height: 61px;
+    position: absolute;
+    background: url(../images/lvls-bg/2-8.png) no-repeat;
+    z-index: 3;
 }
 
 .lvl2-8:hover{
-	left: 1105px;
-	top: 51px;
-	z-index: 4;
+    left: 1105px;
+    top: 51px;
+    z-index: 4;
 }
 
 .lvl2-9{
-	left: 1058px;
-	top: 30px;
-	width: 44px;
-	height: 50px;
-	position: absolute;
-	background: url(../images/lvls-bg/2-9.png) no-repeat;
-	z-index: 3;
+    left: 1058px;
+    top: 30px;
+    width: 44px;
+    height: 50px;
+    position: absolute;
+    background: url(../images/lvls-bg/2-9.png) no-repeat;
+    z-index: 3;
 }
 
 .lvl2-9:hover{
-	left: 1053px;
-	top: 35px;
-	z-index: 4;
+    left: 1053px;
+    top: 35px;
+    z-index: 4;
 }
 
 .lvl2-10{
-	left: 1082px;
-	top: 46px;
-	width: 44px;
-	height: 50px;
-	position: absolute;
-	background: url(../images/lvls-bg/2-10.png) no-repeat;
-	z-index: 3;
+    left: 1082px;
+    top: 46px;
+    width: 44px;
+    height: 50px;
+    position: absolute;
+    background: url(../images/lvls-bg/2-10.png) no-repeat;
+    z-index: 3;
 }
 
 .lvl2-10:hover{
-	left: 1077px;
-	top: 51px;
-	z-index: 4;
+    left: 1077px;
+    top: 51px;
+    z-index: 4;
 }
 
 .lvl2-11{
-	left: 594px;
-	top: 16px;
-	width: 69px;
-	height: 50px;
-	position: absolute;
-	background: url(../images/lvls-bg/2-11.png) no-repeat;
-	z-index: 3;
+    left: 594px;
+    top: 16px;
+    width: 69px;
+    height: 50px;
+    position: absolute;
+    background: url(../images/lvls-bg/2-11.png) no-repeat;
+    z-index: 3;
 }
 
 .lvl2-11:hover{
-	left: 589px;
-	top: 21px;
-	z-index: 4;
+    left: 589px;
+    top: 21px;
+    z-index: 4;
 }
 
 .lvl2-12{
-	left: 460px;
-	top: 13px;
-	width: 79px;
-	height: 50px;
-	position: absolute;
-	background: url(../images/lvls-bg/2-12.png) no-repeat;
-	z-index: 3;
+    left: 460px;
+    top: 13px;
+    width: 79px;
+    height: 50px;
+    position: absolute;
+    background: url(../images/lvls-bg/2-12.png) no-repeat;
+    z-index: 3;
 }
 
 .lvl2-12:hover{
-	left: 455px;
-	top: 18px;
-	z-index: 4;
+    left: 455px;
+    top: 18px;
+    z-index: 4;
 }
 
 .lvl2-13{
-	left: 404px;
-	top: 4px;
-	width: 44px;
-	height: 50px;
-	position: absolute;
-	background: url(../images/lvls-bg/2-13.png) no-repeat;
-	z-index: 3;
+    left: 404px;
+    top: 4px;
+    width: 44px;
+    height: 50px;
+    position: absolute;
+    background: url(../images/lvls-bg/2-13.png) no-repeat;
+    z-index: 3;
 }
 
 .lvl2-13:hover{
-	left: 399px;
-	top: 9px;
-	z-index: 4;
+    left: 399px;
+    top: 9px;
+    z-index: 4;
 }
 
 /* ЧЕТВЕРТЫЙ ЭТАЖ */
 .lvl3-1{
-   	left: 189px;
-	top: 226px;
-	width: 103px;
-	height: 55px;
+    left: 189px;
+    top: 226px;
+    width: 103px;
+    height: 55px;
     position: absolute;
     background: url(../images/lvls-bg/3-1.png) no-repeat;
     z-index: 3;
@@ -1608,26 +1625,94 @@ margin-bottom: 10px;
 }
 
 .lvl3-2{
-    left: 271px;
-	top: 252px;
-	width: 238px;
-	height: 55px;
+    left: 445px;
+    top: 251px;
+    width: 58px;
+    height: 32px;
     position: absolute;
-    background: url(../images/lvls-bg/3-2.png) no-repeat;
+    background: url(../images/lvls-bg/3-2.png)-173px 1px no-repeat;
     z-index: 3;
 }
 
 .lvl3-2:hover{
+    left: 440px;
+    top: 256px;
+    z-index: 4;
+}
+
+
+.lvl3-2-1{
+    left: 271px;
+    top: 252px;
+    width: 42px;
+    height: 32px;
+    position: absolute;
+    background: url(../images/lvls-bg/3-2-1.png) no-repeat;
+    z-index: 3;
+}
+
+.lvl3-2-1:hover{
     left: 266px;
+    top: 257px;
+    z-index: 4;
+}
+
+
+.lvl3-2-2{
+    left: 311px;
+    top: 252px;
+    width: 33px;
+    height: 32px;
+    position: absolute;
+    background: url(../images/lvls-bg/3-2-2.png) no-repeat;
+    z-index: 3;
+}
+
+.lvl3-2-2:hover{
+    left: 306px;
+    top: 257px;
+    z-index: 4;
+}
+
+
+.lvl3-2-3{
+    left: 340px;
+    top: 252px;
+    width: 46px;
+    height: 32px;
+    position: absolute;
+    background: url(../images/lvls-bg/3-2-3.png) no-repeat;
+    z-index: 3;
+}
+
+.lvl3-2-3:hover{
+    left: 335px;
+    top: 257px;
+    z-index: 4;
+}
+
+
+.lvl3-2-4{
+    left: 385px;
+    top: 252px;
+    width: 60px;
+    height: 33px;
+    position: absolute;
+    background: url(../images/lvls-bg/3-2-4.png) no-repeat;
+    z-index: 3;
+}
+
+.lvl3-2-4:hover{
+    left: 380px;
     top: 257px;
     z-index: 4;
 }
 
 .lvl3-3{
    left: 502px;
-	top: 252px;
-	width: 77px;
-	height: 137px;
+    top: 252px;
+    width: 77px;
+    height: 37px;
     position: absolute;
     background: url(../images/lvls-bg/3-3.png) no-repeat;
     z-index: 3;
@@ -1640,24 +1725,56 @@ margin-bottom: 10px;
 }
 
 .lvl3-4{
-   left: 598px;
-	top: 269px;
-	width: 114px;
-    height: 50px;
+    left: 669px;
+    top: 269px;
+    width: 26px;
+    height: 22px;
     position: absolute;
-    background: url(../images/lvls-bg/3-4.png) no-repeat;
+    background: url(../images/lvls-bg/3-4.png) -70px 0px no-repeat;
     z-index: 3;
 }
 
 .lvl3-4:hover{
-    left: 594px;
+    left: 664px;
+    top: 274px;
+    z-index: 4;
+}
+
+.lvl3-4-1{
+    left: 598px;
+    top: 269px;
+    width: 46px;
+    height: 22px;
+    position: absolute;
+    background: url(../images/lvls-bg/3-4-1.png) no-repeat;
+    z-index: 3;
+}
+
+.lvl3-4-1:hover{
+    left: 593px;
+    top: 274px;
+    z-index: 4;
+}
+
+.lvl3-4-2{
+    left: 643px;
+    top: 269px;
+    width: 30px;
+    height: 22px;
+    position: absolute;
+    background: url(../images/lvls-bg/3-4-2.png) no-repeat;
+    z-index: 3;
+}
+
+.lvl3-4-2:hover{
+    left: 638px;
     top: 274px;
     z-index: 4;
 }
 
 .lvl3-5{
     left: 710px;
-	top: 269px;
+    top: 269px;
     width: 44px;
     height: 50px;
     position: absolute;
@@ -1672,26 +1789,57 @@ margin-bottom: 10px;
 }
 
 .lvl3-6{
-    left: 760px;
-	top: 269px;
-	width: 110px;
-    height: 50px;
+    left: 822px;
+    top: 269px;
+    width: 42px;
+    height: 23px;
     position: absolute;
-    background: url(../images/lvls-bg/3-6.png) no-repeat;
+    background: url(../images/lvls-bg/3-6.png)-62px 0px no-repeat;
     z-index: 3;
 }
 
 .lvl3-6:hover{
+    left: 817px;
+    top: 274px;
+    z-index: 4;
+}
+
+.lvl3-6-1{
+    left: 760px;
+    top: 269px;
+    width: 34px;
+    height: 23px;
+    position: absolute;
+    background: url(../images/lvls-bg/3-6-1.png) no-repeat;
+    z-index: 3;
+}
+
+.lvl3-6-1:hover{
     left: 755px;
     top: 274px;
     z-index: 4;
 }
 
+.lvl3-6-2{
+    left: 792px;
+    top: 269px;
+    width: 35px;
+    height: 23px;
+    position: absolute;
+    background: url(../images/lvls-bg/3-6-2.png) no-repeat;
+    z-index: 3;
+}
+
+.lvl3-6-2:hover{
+    left: 787px;
+    top: 274px;
+    z-index: 4;
+}
 .lvl3-7{
     left: 864px;
-	top: 269px;
-    width: 44px;
-    height: 50px;
+    top: 269px;
+    width: 34px;
+    height: 22px;
     position: absolute;
     background: url(../images/lvls-bg/3-7.png) no-repeat;
     z-index: 3;
@@ -1705,9 +1853,9 @@ margin-bottom: 10px;
 
 .lvl3-8{
     left: 897px;
-	top: 269px;
-	width: 50px;
-    height: 50px;
+    top: 269px;
+    width: 50px;
+    height: 23px;
     position: absolute;
     background: url(../images/lvls-bg/3-8.png) no-repeat;
     z-index: 3;
@@ -1721,9 +1869,9 @@ margin-bottom: 10px;
 
 .lvl3-9{
    left: 964px;
-	top: 266px;
-	width: 66px;
-    height: 50px;
+    top: 266px;
+    width: 66px;
+    height: 23px;
     position: absolute;
     background: url(../images/lvls-bg/3-9.png) no-repeat;
     z-index: 3;
@@ -1736,28 +1884,59 @@ margin-bottom: 10px;
 }
 
 .lvl3-10{
-    left: 1039px;
-	top: 264px;
-	width: 80px;
-    height: 50px;
+    left: 1072px;
+    top: 264px;
+    width: 47px;
+    height: 25px;
     position: absolute;
-    background: url(../images/lvls-bg/3-10.png) no-repeat;
+    background: url(../images/lvls-bg/3-10.png)-32px 0px no-repeat;
     z-index: 3;
 }
 
 .lvl3-10:hover{
-    left: 1034px;
+    left: 1067px;
     top: 269px;
     z-index: 4;
 }
 
+.lvl3-10-1{
+    left: 1040px;
+    top: 271px;
+    width: 27px;
+    height: 19px;
+    position: absolute;
+    background: url(../images/lvls-bg/3-10-1.png) no-repeat;
+    z-index: 3;
+}
+
+.lvl3-10-1:hover{
+    left: 1035px;
+    top: 276px;
+    z-index: 4;
+}
+
+.lvl3-10-2{
+    left: 1064px;
+    top: 269px;
+    width: 26px;
+    height: 21px;
+    position: absolute;
+    background: url(../images/lvls-bg/3-10-2.png) no-repeat;
+    z-index: 5;
+}
+
+.lvl3-10-2:hover{
+    left: 1059px;
+    top: 274px;
+    z-index: 6;
+}
 .lvl3-11{
     left: 797px;
-	top: 96px;
-	width: 38px;
-	height: 164px;
+    top: 96px;
+    width: 38px;
+    height: 38px;
     position: absolute;
-    background: url(../images/lvls-bg/3-11.png) no-repeat;
+    background: url(../images/lvls-bg/3-11_01.png) no-repeat;
     z-index: 3;
 }
 
@@ -1767,35 +1946,235 @@ margin-bottom: 10px;
     z-index: 4;
 }
 
-.lvl3-12{
-    left: 845px;
-	top: 196px;
-	width: 44px;
-	height: 110px;
+.lvl3-11_1{
+    left: 797px;
+    top: 134px;
+    width: 38px;
+    height: 18px;
     position: absolute;
-    background: url(../images/lvls-bg/3-12.png) no-repeat;
+    background: url(../images/lvls-bg/3-11_02.jpg) no-repeat;
     z-index: 3;
 }
 
-.lvl3-12:hover{
+.lvl3-11_1:hover{
+    left: 792px;
+    top: 139px;
+    z-index: 4;
+}
+
+.lvl3-11_2{
+    left: 797px;
+    top: 152px;
+    width: 38px;
+    height: 19px;
+    position: absolute;
+    background: url(../images/lvls-bg/3-11_03.jpg) no-repeat;
+    z-index: 3;
+}
+
+.lvl3-11_2:hover{
+    left: 792px;
+    top: 157px;
+    z-index: 4;
+}
+
+.lvl3-11_3{
+    left: 797px;
+    top: 171px;
+    width: 38px;
+    height: 19px;
+    position: absolute;
+    background: url(../images/lvls-bg/3-11_03.jpg) no-repeat;
+    z-index: 3;
+}
+
+.lvl3-11_3:hover{
+    left: 792px;
+    top: 176px;
+    z-index: 4;
+}
+
+.lvl3-11_4{
+    left: 797px;
+    top: 190px;
+    width: 38px;
+    height: 19px;
+    position: absolute;
+    background: url(../images/lvls-bg/3-11_04.jpg) no-repeat;
+    z-index: 3;
+}
+
+.lvl3-11_4:hover{
+    left: 792px;
+    top: 195px;
+    z-index: 4;
+}
+
+.lvl3-11_5{
+    left: 797px;
+    top: 209px;
+    width: 38px;
+    height: 18px;
+    position: absolute;
+    background: url(../images/lvls-bg/3-11_05.jpg) no-repeat;
+    z-index: 3;
+}
+
+.lvl3-11_5:hover{
+    left: 792px;
+    top: 214px;
+    z-index: 4;
+}
+
+.lvl3-11_6{
+    left: 797px;
+    top: 227px;
+    width: 38px;
+    height: 19px;
+    position: absolute;
+    background: url(../images/lvls-bg/3-11_06.jpg) no-repeat;
+    z-index: 3;
+}
+
+.lvl3-11_6:hover{
+    left: 792px;
+    top: 232px;
+    z-index: 4;
+}
+
+.lvl3-11_7{
+    left: 797px;
+    top: 246px;
+    width: 38px;
+    height: 14px;
+    position: absolute;
+    background: url(../images/lvls-bg/3-11_08.jpg) no-repeat;
+    z-index: 3;
+}
+
+.lvl3-11_7:hover{
+    left: 792px;
+    top: 251px;
+    z-index: 4;
+}
+
+.lvl3-12-1{
+    left: 845px;
+    top: 196px;
+    
+    width: 35px;
+    
+    height: 13px;
+    position: absolute;
+    background: url(../images/lvls-bg/3-12_01.png) no-repeat;
+    z-index: 3;
+}
+
+.lvl3-12-1:hover{
     left: 840px;
     top: 201px;
     z-index: 4;
 }
 
-.lvl3-13{
-   left: 845px;
-	top: 107px;
-	width: 44px;
-	height: 89px;
+.lvl3-12-2{
+    left: 845px;
+    
+    top: 209px;
+    width: 44px;
+    
+    height: 18px;
     position: absolute;
-    background: url(../images/lvls-bg/3-13.png) no-repeat;
+    background: url(../images/lvls-bg/3-12_02.png) no-repeat;
     z-index: 3;
 }
 
-.lvl3-13:hover{
+.lvl3-12-2:hover{
+    left: 840px;
+    top: 214px;
+    z-index: 4;
+}
+
+.lvl3-12-3{
+    left: 845px;
+    
+    top: 227px;
+    width: 44px;
+    
+    height: 19px;
+    position: absolute;
+    background: url(../images/lvls-bg/3-12_03.png) no-repeat;
+    z-index: 3;
+}
+
+.lvl3-12-3:hover{
+    left: 840px;
+    top: 232px;
+    z-index: 4;
+}
+
+.lvl3-12-4{
+    left: 845px;
+    
+    top: 246px;
+    width: 44px;
+    
+    height: 14px;
+    position: absolute;
+    background: url(../images/lvls-bg/3-12_04.png) no-repeat;
+    z-index: 3;
+}
+
+.lvl3-12-4:hover{
+    left: 840px;
+    top: 251px;
+    z-index: 4;
+}
+
+.lvl3-13-1{
+    left: 845px;
+    top: 107px;
+    width: 44px;
+    height: 27px;
+    position: absolute;
+    background: url(../images/lvls-bg/3-13_01.png) no-repeat;
+    z-index: 3;
+}
+
+.lvl3-13-1:hover{
     left: 840px;
     top: 112px;
+    z-index: 4;
+}
+
+.lvl3-13-2{
+    left: 845px;
+    top: 134px;
+    width: 44px;
+    height: 18px;
+    position: absolute;
+    background: url(../images/lvls-bg/3-13_02.png) no-repeat;
+    z-index: 3;
+}
+
+.lvl3-13-2:hover{
+    left: 840px;
+    top: 139px;
+    z-index: 4;
+}
+
+.lvl3-13-3{
+    left: 845px;
+    top: 152px;
+    width: 44px;
+    height: 36px;
+    position: absolute;
+    background: url(../images/lvls-bg/3-13_03.png) no-repeat;
+    z-index: 3;
+}
+
+.lvl3-13-3:hover{
+    left: 840px;
+    top: 157px;
     z-index: 4;
 }
 
@@ -1815,59 +2194,209 @@ margin-bottom: 10px;
     z-index: 4;
 }
 
-.lvl3-15{
+.lvl3-15-1{
     left: 912px;
-	top: 107px;
-	width: 37px;
-	height: 153px;
+    
+    top: 107px;
+    width: 37px;
+    
+    height: 27px;
     position: absolute;
-    background: url(../images/lvls-bg/3-15.png) no-repeat;
+    background: url(../images/lvls-bg/3-15_01.png) no-repeat;
     z-index: 3;
 }
 
-.lvl3-15:hover{
+.lvl3-15-1:hover{
     left: 907px;
     top: 112px;
     z-index: 4;
 }
 
-.lvl3-16{
-    left: 959px;
-	top: 138px;
-	width: 38px;
-	height: 126px;
+.lvl3-15-2{
+    left: 912px;
+    
+    top: 134px;
+    width: 37px;
+    
+    height: 37px;
     position: absolute;
-    background: url(../images/lvls-bg/3-16.png) no-repeat;
+    background: url(../images/lvls-bg/3-15_02.png) no-repeat;
     z-index: 3;
 }
 
-.lvl3-16:hover{
+.lvl3-15-2:hover{
+    left: 907px;
+    top: 139px;
+    z-index: 4;
+}
+
+.lvl3-15-3{
+    left: 912px;
+    
+    top: 171px;
+    width: 37px;
+    
+    height: 19px;
+    position: absolute;
+    background: url(../images/lvls-bg/3-15_03.png) no-repeat;
+    z-index: 3;
+}
+
+.lvl3-15-3:hover{
+    left: 907px;
+    top: 176px;
+    z-index: 4;
+}
+
+.lvl3-15-4{
+    left: 912px;
+    
+    top: 190px;
+    width: 37px;
+    
+    height: 19px;
+    position: absolute;
+    background: url(../images/lvls-bg/3-15_04.png) no-repeat;
+    z-index: 3;
+}
+
+.lvl3-15-4:hover{
+    left: 907px;
+    top: 195px;
+    z-index: 4;
+}
+
+.lvl3-15-5{
+    left: 912px;
+    
+    top: 209px;
+    width: 37px;
+    
+    height: 27px;
+    position: absolute;
+    background: url(../images/lvls-bg/3-15_05.png) no-repeat;
+    z-index: 3;
+}
+
+.lvl3-15-5:hover{
+    left: 907px;
+    top: 214px;
+    z-index: 4;
+}
+
+.lvl3-15-6{
+    left: 912px;
+    
+    top: 236px;
+    width: 37px;
+    
+    height: 24px;
+    position: absolute;
+    background: url(../images/lvls-bg/3-15_06.png) no-repeat;
+    z-index: 3;
+}
+
+.lvl3-15-6:hover{
+    left: 907px;
+    top: 241px;
+    z-index: 4;
+}
+
+.lvl3-16-1{
+    left: 959px;
+    
+    top: 138px;
+    width: 38px;
+    
+    height: 36px;
+    position: absolute;
+    background: url(../images/lvls-bg/3-16_01.png) no-repeat;
+    z-index: 3;
+}
+
+.lvl3-16-1:hover{
     left: 954px;
     top: 143px;
     z-index: 4;
 }
 
-.lvl3-17{
-    left: 1064px;
-	top: 144px;
-	width: 44px;
-	height: 118px;
+.lvl3-16-2{
+    left: 959px;
+    
+    top: 174px;
+    width: 38px;
+    
+    height: 55px;
     position: absolute;
-    background: url(../images/lvls-bg/3-17.png) no-repeat;
+    background: url(../images/lvls-bg/3-16_02.png) no-repeat;
     z-index: 3;
 }
 
-.lvl3-17:hover{
+.lvl3-16-2:hover{
+    left: 954px;
+    top: 179px;
+    z-index: 4;
+}
+
+.lvl3-16-3{
+    left: 959px;
+    
+    top: 229px;
+    width: 38px;
+    
+    height: 35px;
+    position: absolute;
+    background: url(../images/lvls-bg/3-16_03.png) no-repeat;
+    z-index: 3;
+}
+
+.lvl3-16-3:hover{
+    left: 954px;
+    top: 234px;
+    z-index: 4;
+}
+
+.lvl3-17-1{
+    left: 1064px;
+    
+    top: 144px;
+    width: 44px;
+    
+    height: 55px;
+    position: absolute;
+    background: url(../images/lvls-bg/3-17_01.png) no-repeat;
+    z-index: 3;
+}
+
+.lvl3-17-1:hover{
     left: 1059px;
     top: 149px;
     z-index: 4;
 }
 
+.lvl3-17-2{
+    left: 1064px;
+    
+    top: 200px;
+    width: 44px;
+    
+    height: 61px;
+    position: absolute;
+    background: url(../images/lvls-bg/3-17_02.png) no-repeat;
+    z-index: 3;
+}
+
+.lvl3-17-2:hover{
+    left: 1059px;
+    top: 205px;
+    z-index: 4;
+}
+
 .lvl3-18{
-	left: 1064px;
-	top: 28px;
-	width: 38px;
-	height: 117px;
+    left: 1064px;
+    top: 28px;
+    width: 38px;
+    height: 117px;
     position: absolute;
     background: url(../images/lvls-bg/3-18.png) no-repeat;
     z-index: 3;
@@ -1878,31 +2407,81 @@ margin-bottom: 10px;
     top: 33px;
     z-index: 4;
 }
+
+.lvl3-18-1{
+    left: 1064px;
+    top: 28px;
+    width: 38px;
+    height: 60px;
+    position: absolute;
+    
+    background: url(../images/lvls-bg/3-18_01.png) no-repeat;
+    z-index: 3;
+}
+
+.lvl3-18-1:hover{
+    left: 1059px;
+    top: 33px;
+    z-index: 4;
+}
+
+.lvl3-18-2{
+    left: 1064px;
+    top: 88px;
+    width: 38px;
+    height: 55px;
+    position: absolute;
+    
+    background: url(../images/lvls-bg/3-18_02.png) no-repeat;
+    z-index: 3;
+}
+
+.lvl3-18-2:hover{
+    left: 1059px;
+    top: 93px;
+    z-index: 4;
+}
 /* ЧЕТВЕРТЫЙ ЭТАЖ */
 
 
 /* ПЯТЫЙ ЭТАЖ ЭТАЖ */
-.lvl4-1{
+.lvl4-1-1{
     left: 248px;
-	top: 234px;
-	width: 301px;
-	height: 122px;
+    top: 234px;
+    width: 136px;
+    height: 30px;
     position: absolute;
-    background: url(../images/lvls-bg/4-1.png) no-repeat;
+    background: url(../images/lvls-bg/4-1_01.png) no-repeat;
     z-index: 3;
 }
 
-.lvl4-1:hover{
+.lvl4-1-1:hover{
     left: 243px;
     top: 239px;
     z-index: 4;
 }
 
+.lvl4-1-2{
+    left: 384px;
+    top: 234px;
+    width: 120px;
+    height: 30px;
+    position: absolute;
+    background: url(../images/lvls-bg/4-1_02.png) no-repeat;
+    z-index: 3;
+}
+
+.lvl4-1-2:hover{
+    left: 389px;
+    top: 239px;
+    z-index: 4;
+}
+
 .lvl4-2{
-    left: 1025px;
-	top: 254px;
-	width: 132px;
-	height: 117px;
+    left: 1024px;
+    top: 253px;
+    width: 132px;
+    height: 117px;
     position: absolute;
     background: url(../images/lvls-bg/4-2.png) no-repeat;
     z-index: 3;
@@ -1914,75 +2493,412 @@ margin-bottom: 10px;
     z-index: 4;
 }
 
-.lvl4-3{
-   left: 775px;
-	top: 93px;
-	width: 38px;
-	height: 163px;
+.lvl4-2-1{
+    left: 1025px;
+    top: 253px;
+    width: 22px;
+    height: 26px;
     position: absolute;
-    background: url(../images/lvls-bg/4-3.png) no-repeat;
+    background: url(../images/lvls-bg/4-2-1.png) no-repeat;
     z-index: 3;
 }
 
-.lvl4-3:hover{
+.lvl4-2-1:hover{
+    left: 1020px;
+    top: 258px;
+    z-index: 4;
+}
+
+.lvl4-2-2{
+    left: 1047px;
+    top: 261px;
+    width: 17px;
+    height: 18px;
+    position: absolute;
+    background: url(../images/lvls-bg/4-2-2.png) no-repeat;
+    z-index: 3;
+}
+
+.lvl4-2-2:hover{
+    left: 1042px;
+    top: 266px;
+    z-index: 4;
+}
+
+.lvl4-2-3{
+    left: 1064px;
+    top: 261px;
+    width: 27px;
+    height: 18px;
+    position: absolute;
+    background: url(../images/lvls-bg/4-2-3.png) no-repeat;
+    z-index: 7;
+}
+
+.lvl4-2-3:hover{
+    left: 1059px;
+    top: 266px;
+    z-index: 8;
+}
+
+.lvl4-2-4{
+    left: 1070px;
+    top: 254px;
+    width: 43px;
+    height: 26px;
+    position: absolute;
+    background: url(../images/lvls-bg/4-2-4.png) no-repeat;
+    z-index: 3;
+}
+
+.lvl4-2-4:hover{
+    left: 1065px;
+    top: 259px;
+    z-index: 4;
+}
+
+.lvl4-3-1{
+    left: 775px;
+    top: 93px;
+    width: 38px;
+    height: 37px;
+    position: absolute;
+    background: url(../images/lvls-bg/4-3_01.png) no-repeat;
+    z-index: 3;
+}
+
+.lvl4-3-1:hover{
     left: 770px;
     top: 98px;
     z-index: 4;
 }
 
-.lvl4-4{
-    left: 814px;
-	top: 104px;
-	width: 38px;
-	height: 154px
+.lvl4-3-2{
+    left: 775px;
+    top: 130px;
+    width: 38px;
+    height: 18px;
     position: absolute;
-    background: url(../images/lvls-bg/4-4.png) no-repeat;
+    background: url(../images/lvls-bg/4-3_02.png) no-repeat;
     z-index: 3;
 }
 
-.lvl4-4:hover{
+.lvl4-3-2:hover{
+    left: 770px;
+    top: 135px;
+    z-index: 4;
+}
+
+.lvl4-3-3{
+    left: 775px;
+    top: 148px;
+    width: 38px;
+    height: 18px;
+    position: absolute;
+    background: url(../images/lvls-bg/4-3_03.png) no-repeat;
+    z-index: 3;
+}
+
+.lvl4-3-3:hover{
+    left: 770px;
+    top: 153px;
+    z-index: 4;
+}
+
+.lvl4-3-4{
+    left: 775px;
+    top: 166px;
+    width: 38px;
+    height: 17px;
+    position: absolute;
+    background: url(../images/lvls-bg/4-3_04.png) no-repeat;
+    z-index: 3;
+}
+
+.lvl4-3-4:hover{
+    left: 770px;
+    top: 171px;
+    z-index: 4;
+}
+
+.lvl4-3-5{
+    left: 775px;
+    top: 183px;
+    width: 38px;
+    height: 19px;
+    position: absolute;
+    background: url(../images/lvls-bg/4-3_05.png) no-repeat;
+    z-index: 3;
+}
+
+.lvl4-3-5:hover{
+    left: 770px;
+    top: 188px;
+    z-index: 4;
+}
+
+.lvl4-3-6{
+    left: 775px;
+    top: 202px;
+    width: 38px;
+    height: 17px;
+    position: absolute;
+    background: url(../images/lvls-bg/4-3_06.png) no-repeat;
+    z-index: 3;
+}
+
+.lvl4-3-6:hover{
+    left: 770px;
+    top: 207px;
+    z-index: 4;
+}
+
+.lvl4-3-7{
+    left: 775px;
+    top: 219px;
+    width: 38px;
+    height: 16px;
+    position: absolute;
+    background: url(../images/lvls-bg/4-3_07.png) no-repeat;
+    z-index: 3;
+}
+
+.lvl4-3-7:hover{
+    left: 770px;
+    top: 224px;
+    z-index: 4;
+}
+
+.lvl4-3-8{
+    left: 775px;
+    top: 235px;
+    width: 38px;
+    height: 16px;
+    position: absolute;
+    background: url(../images/lvls-bg/4-3_08.png) no-repeat;
+    z-index: 3;
+}
+
+.lvl4-3-8:hover{
+    left: 770px;
+    top: 240px;
+    z-index: 4;
+}
+
+.lvl4-4-1{
+    left: 814px;
+    top: 104px;
+    width: 38px;
+    height: 26px;
+    position: absolute;
+    background: url(../images/lvls-bg/4-4_01.png) no-repeat;
+    z-index: 3;
+}
+
+.lvl4-4-1:hover{
     left: 809px;
     top: 109px;
     z-index: 4;
 }
 
-.lvl4-5{
-    left: 887px;
-	top: 104px;
-	width: 38px;
-	height: 163px;
+.lvl4-4-2{
+    left: 814px;
+    top: 130px;
+    width: 37px;
+    height: 18px;
     position: absolute;
-    background: url(../images/lvls-bg/4-5.png) no-repeat;
+    background: url(../images/lvls-bg/4-4_02.png) no-repeat;
     z-index: 3;
 }
 
-.lvl4-5:hover{
+.lvl4-4-2:hover{
+    left: 809px;
+    top: 135px;
+    z-index: 4;
+}
+
+.lvl4-4-3{
+    left: 814px;
+    top: 148px;
+    width: 37px;
+    height: 54px;
+    position: absolute;
+    background: url(../images/lvls-bg/4-4_03.png) no-repeat;
+    z-index: 3;
+}
+
+.lvl4-4-3:hover{
+    left: 809px;
+    top: 153px;
+    z-index: 4;
+}
+
+.lvl4-4-4{
+    left: 814px;
+    top: 202px;
+    width: 38px;
+    height: 17px;
+    position: absolute;
+    background: url(../images/lvls-bg/4-4_04.png) no-repeat;
+    z-index: 3;
+}
+
+.lvl4-4-4:hover{
+    left: 809px;
+    top: 207px;
+    z-index: 4;
+}
+
+.lvl4-4-5{
+    left: 814px;
+    top: 219px;
+    width: 37px;
+    height: 18px;
+    position: absolute;
+    background: url(../images/lvls-bg/4-4_05.png) no-repeat;
+    z-index: 3;
+}
+
+.lvl4-4-5:hover{
+    left: 809px;
+    top: 224px;
+    z-index: 4;
+}
+
+.lvl4-4-6{
+    left: 814px;
+    top: 237px;
+    width: 37px;
+    height: 14px;
+    position: absolute;
+    background: url(../images/lvls-bg/4-4_06.png) no-repeat;
+    z-index: 3;
+}
+
+.lvl4-4-6:hover{
+    left: 809px;
+    top: 242px;
+    z-index: 4;
+}
+
+.lvl4-5-1{
+    left: 887px;
+    top: 104px;
+    width: 34px;
+    height: 45px;
+    position: absolute;
+    background: url(../images/lvls-bg/4-5_01.png) no-repeat;
+    z-index: 3;
+}
+
+.lvl4-5-1:hover{
     left: 882px;
     top: 109px;
     z-index: 4;
 }
 
-.lvl4-6{
-    left: 930px;
-	top: 133px;
-	width: 52px;
-	height: 147px;
+.lvl4-5-2{
+    left: 887px;
+    top: 149px;
+    width: 35px;
+    height: 39px;
     position: absolute;
-    background: url(../images/lvls-bg/4-6.png) no-repeat;
+    background: url(../images/lvls-bg/4-5_02.png) no-repeat;
     z-index: 3;
 }
 
-.lvl4-6:hover{
+.lvl4-5-2:hover{
+    left: 882px;
+    top: 154px;
+    z-index: 4;
+}
+
+.lvl4-5-3{
+    left: 887px;
+    top: 187px;
+    width: 35px;
+    height: 38px;
+    position: absolute;
+    background: url(../images/lvls-bg/4-5_03.png) no-repeat;
+    z-index: 3;
+}
+
+.lvl4-5-3:hover{
+    left: 882px;
+    top: 192px;
+    z-index: 4;
+}
+
+.lvl4-5-4{
+    left: 887px;
+    top: 225px;
+    width: 35px;
+    height: 26px;
+    position: absolute;
+    background: url(../images/lvls-bg/4-5_04.png) no-repeat;
+    z-index: 3;
+}
+
+.lvl4-5-4:hover{
+    left: 882px;
+    top: 230px;
+    z-index: 4;
+}
+
+.lvl4-6-1{
+    left: 930px;
+    top: 133px;
+    width: 52px;
+    height: 37px;
+    position: absolute;
+    background: url(../images/lvls-bg/4-6_01.png) no-repeat;
+    z-index: 3;
+}
+
+.lvl4-6-1:hover{
     left: 925px;
     top: 138px;
     z-index: 4;
 }
 
+.lvl4-6-2{
+    left: 930px;
+    top: 170px;
+    width: 52px;
+    height: 51px;
+    position: absolute;
+    background: url(../images/lvls-bg/4-6_02.png) no-repeat;
+    z-index: 3;
+}
+
+.lvl4-6-2:hover{
+    left: 925px;
+    top: 175px;
+    z-index: 4;
+}
+
+.lvl4-6-3{
+    left: 930px;
+    top: 221px;
+    width: 52px;
+    height: 34px;
+    position: absolute;
+    background: url(../images/lvls-bg/4-6_03.png) no-repeat;
+    z-index: 3;
+}
+
+.lvl4-6-3:hover{
+    left: 925px;
+    top: 226px;
+    z-index: 4;
+}
+
 .lvl4-7{
    left: 928px;
-	top: 88px;
-	width: 54px;
-	height: 117px;
+    top: 88px;
+    width: 54px;
+    
+   height: 35px;
     position: absolute;
     background: url(../images/lvls-bg/4-7.png) no-repeat;
     z-index: 3;
@@ -2062,7 +2978,7 @@ background-size:auto;
 }
 
 
-	
+    
 }
 /* Before 768px */
 @media (min-width: 768px){

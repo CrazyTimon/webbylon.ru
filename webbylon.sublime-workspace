@@ -3,6 +3,10 @@
 	{
 		"selected_items":
 		[
+			[
+				"set",
+				"setTimeout"
+			]
 		]
 	},
 	"buffers":
@@ -11,7 +15,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 38149,
+				"buffer_size": 41099,
 				"line_ending": "Windows"
 			}
 		},
@@ -19,7 +23,7 @@
 			"file": "css/style.css",
 			"settings":
 			{
-				"buffer_size": 26533,
+				"buffer_size": 37640,
 				"line_ending": "Windows"
 			}
 		},
@@ -27,7 +31,7 @@
 			"file": "js/script_after.js",
 			"settings":
 			{
-				"buffer_size": 16375,
+				"buffer_size": 16894,
 				"line_ending": "Windows"
 			}
 		},
@@ -67,9 +71,17 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 81.0,
+		"height": 127.0,
 		"selected_items":
 		[
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"colo",
+				"Color Picker"
+			],
 			[
 				"remove",
 				"Package Control: Remove Package"
@@ -77,10 +89,6 @@
 			[
 				"insta",
 				"Package Control: Install Package"
-			],
-			[
-				"remo",
-				"Package Control: Remove Package"
 			],
 			[
 				"instal",
@@ -99,7 +107,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 400.0
+		"width": 464.0
 	},
 	"console":
 	{
@@ -132,7 +140,7 @@
 	],
 	"find":
 	{
-		"height": 46.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
@@ -147,6 +155,17 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"1-1",
+			"min-height",
+			"bg_img1",
+			"changeBGmagic",
+			"background-image",
+			"415",
+			".bg-image",
+			"415",
+			".bg-image",
+			"bg-image",
+			"background-image",
 			">\n",
 			"js-lvl1-1-mask",
 			"b-bottom-from",
@@ -165,6 +184,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"bg_img1_1"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -184,15 +204,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 38149,
+						"buffer_size": 41099,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								35619,
-								35619
+								38128,
+								38128
 							]
 						],
 						"settings":
@@ -202,7 +222,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 12276.0,
+						"translation.y": 11897.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -214,15 +234,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 26533,
+						"buffer_size": 37640,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								24637,
-								24637
+								32870,
+								32870
 							]
 						],
 						"settings":
@@ -230,7 +250,7 @@
 							"syntax": "Packages/CSS/CSS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 22821.0,
+						"translation.y": 28296.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -242,15 +262,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 16375,
+						"buffer_size": 16894,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								15580,
-								15580
+								274,
+								274
 							]
 						],
 						"settings":
@@ -260,10 +280,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 5615.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -291,7 +311,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -422,7 +442,7 @@
 	"project": "webbylon.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 62.0
 	},
 	"save_all_on_build": true,
 	"select_file":
