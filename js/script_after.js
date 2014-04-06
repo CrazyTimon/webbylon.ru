@@ -1,14 +1,10 @@
 $(function(){
     function changeBGmagic(background, index){
         if ( index == 0 ) {
-            $('body').css({
-                'background-image': 'url(images/bg_img1.jpg)',
-                'background-position': '100% 108px',
-                'background-size': 'cover',
-                'background-attachment': 'fixed',
-                'background-repeat': ' no-repeat'
-            });
+            $('body').addClass('body-first-page');
+            $('body').attr('style', '');
         } else {
+            $('body').removeClass('body-first-page');
             $('body').css({
                 'background-image':'url('+background+')',
                 'background-position': '0px 0px',
