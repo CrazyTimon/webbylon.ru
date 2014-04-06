@@ -167,7 +167,25 @@ $(function(){
         return false;
     });
     
-    
+    $('.js-mask').on('click', function(e){
+        var txt = $(e.currentTarget).data('text');
+        $('.js-lvl-modal > .lvl-modal-content').html(txt);
+        $('.js-lvl-modal').modal();
+    });
+
+    $('.js-lvl-modal-close').on('click', function(){
+        $('.js-lvl-modal').modal('hide');
+    });
+
+    $('.js-lvl-modal').on('shown.bs.modal', function (e) {
+        $('.js-lvl-modal').hide();
+        $('.js-lvl-modal').fadeIn(200);
+    })
+    $('.js-lvl-modal').on('hidden.bs.modal', function (e) {
+        $('.js-lvl-modal').show();
+        $('.js-lvl-modal').fadeOut(200);
+    })
+
     $(".tabs a").click(function(e){
         e.preventDefault()
     })
