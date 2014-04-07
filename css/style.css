@@ -5,13 +5,14 @@
 
 
 body{
-background-repeat:no-repeat;
-background-attachment:fixed;
-background-position:center 28px;
-background-size:cover;
-min-width:960px;
-padding-top:108px;
-color:#000;
+    background-image: url(../images/1024x768.jpg);
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position:center 28px;
+    background-size:cover;
+    min-width:960px;
+    padding-top:108px;
+    color:#000;
 
       transition:background-image 0.8s 0.3s ease;
    -moz-transition:background-image 0.8s 0.3s ease;
