@@ -7,7 +7,7 @@ $(function(){
             $('body').removeClass('body-first-page');
             $('body').css({
                 'background-image':'url('+background+')',
-                'background-position': '0px -50px',
+                'background-position': '0px 100%',
                 'background-attachment': 'fixed'
             });
         }
