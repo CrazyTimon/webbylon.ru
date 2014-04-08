@@ -2950,7 +2950,7 @@ margin-bottom: 10px;
 @media (min-width: 1024px) and (min-height: 768px){
     body{
         background-image: url(../images/1024x768.jpg);
-        background-position: 100% 108px;
+        background-position: 100% -158px;
         background-size: cover;
         background-attachment: fixed;
         background-repeat: no-repeat;
@@ -2960,7 +2960,7 @@ margin-bottom: 10px;
 @media (min-width: 1280px) and (min-height: 800px){
     body{
         background-image: url(../images/1280x800.jpg);
-        background-position: 100% 108px;
+        background-position: 100% 0px;
         background-size: cover;
         background-attachment: fixed;
         background-repeat: no-repeat;
@@ -2980,7 +2980,7 @@ margin-bottom: 10px;
 @media (min-width: 1366px) and (min-height: 768px){
     body{
         background-image: url(../images/1366x768.jpg);
-        background-position: 100% 108px;
+        background-position: 100% -58px;
         background-size: cover;
         background-attachment: fixed;
         background-repeat: no-repeat;
