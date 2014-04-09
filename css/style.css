@@ -1256,6 +1256,22 @@ margin-bottom: 10px;
     transition-duration: 0.2s;
 }
 
+.lvl1-0{
+    left: 1060px;
+    top: 225px;
+    width: 55px;
+    height: 57px;
+    background: url(../images/lvls-bg/level1_1.png) no-repeat;
+    position: absolute;
+    z-index: 3;
+}
+
+.lvl1-0:hover{
+    left: 1055px;
+    top: 230px;
+    z-index: 4;
+}
+
 .lvl1-1{
     left: 1060px;
     top: 154px;
